@@ -2,13 +2,12 @@ const ap = new APlayer({
     container: document.getElementById('player'),
     listFolded: false,
     listMaxHeight: 90,
-    lrcType: 3,
     audio: [
         {
-            name: 'Alone',
-            artist: 'Alan Walker / Noonie Bao',
-            url: 'http://music.163.com/song/media/outer/url?id=444269135.mp3',
-            cover: '/images/alone.jpg',
+            name: '拝啓、少年よ',
+            artist: 'Hump Back',
+            url: 'http://music.163.com/song/media/outer/url?id=864648423.mp3',
+            cover: '/images/Hump.jpg',
         }
     ]
 });

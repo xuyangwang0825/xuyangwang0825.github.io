@@ -9,6 +9,12 @@ const ap = new APlayer({
             artist: 'Hump Back',
             url: 'http://music.163.com/song/media/outer/url?id=864648423.mp3',
             cover: '/images/Hump.jpg',
-        }
+        },
+        {
+            name: '小さな恋のうた',
+            artist: 'MONGOL800',
+            url: 'http://music.163.com/song/media/outer/url?id=22781103.mp3',
+            cover: '/images/MONGOL800.png',
+        },
     ]
 });

@@ -6,7 +6,7 @@
   <link href="http://blog.diobrando0825.cn/atom.xml" rel="self"/>
   
   <link href="http://blog.diobrando0825.cn/"/>
-  <updated>2021-05-25T03:46:10.859Z</updated>
+  <updated>2021-05-25T07:45:08.212Z</updated>
   <id>http://blog.diobrando0825.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://blog.diobrando0825.cn/2021/05/24/My-New-Post/"/>
     <id>http://blog.diobrando0825.cn/2021/05/24/My-New-Post/</id>
     <published>2021-05-24T09:14:02.552Z</published>
-    <updated>2021-05-25T03:46:10.859Z</updated>
+    <updated>2021-05-25T07:45:08.212Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><span id="more"></span><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -43,28 +43,28 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://blog.diobrando0825.cn/2021/05/24/hello-world/"/>
-    <id>http://blog.diobrando0825.cn/2021/05/24/hello-world/</id>
+    <title>Python中Mysqldb传递参数的坑</title>
+    <link href="http://blog.diobrando0825.cn/2021/05/24/Python%E4%B8%ADMysqldb%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0%E7%9A%84%E5%9D%91/"/>
+    <id>http://blog.diobrando0825.cn/2021/05/24/Python%E4%B8%ADMysqldb%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0%E7%9A%84%E5%9D%91/</id>
     <published>2021-05-24T08:40:18.615Z</published>
-    <updated>2021-05-25T03:45:53.637Z</updated>
+    <updated>2021-05-25T07:48:36.397Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><span id="more"></span><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    <content type="html"><![CDATA[<p>今天在实现业务逻辑的过程中遇到了一些Mysqldb传递参数的坑，在此记录一下。</p><h3 id="不传递参数"><a href="#不传递参数" class="headerlink" title="不传递参数"></a>不传递参数</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><span id="more"></span><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="传递参数"><a href="#传递参数" class="headerlink" title="传递参数"></a>传递参数</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h4 id="传递单个参数"><a href="#传递单个参数" class="headerlink" title="传递单个参数"></a>传递单个参数</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="传递多个参数"><a href="#传递多个参数" class="headerlink" title="传递多个参数"></a>传递多个参数</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h3 id="防止SQL注入的方法"><a href="#防止SQL注入的方法" class="headerlink" title="防止SQL注入的方法"></a>防止SQL注入的方法</h3>]]></content>
     
     
+    <summary type="html">&lt;p&gt;今天在实现业务逻辑的过程中遇到了一些Mysqldb传递参数的坑，在此记录一下。&lt;/p&gt;
+&lt;h3 id=&quot;不传递参数&quot;&gt;&lt;a href=&quot;#不传递参数&quot; class=&quot;headerlink&quot; title=&quot;不传递参数&quot;&gt;&lt;/a&gt;不传递参数&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
-    <category term="数据结构与算法" scheme="http://blog.diobrando0825.cn/categories/Data-Structure-and-Algorithms/"/>
     
     
-    <category term="Graph" scheme="http://blog.diobrando0825.cn/tags/Graph/"/>
+    <category term="数据库" scheme="http://blog.diobrando0825.cn/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
-    <category term="Dynamic Programming" scheme="http://blog.diobrando0825.cn/tags/Dynamic-Programming/"/>
     
-    <category term="String" scheme="http://blog.diobrando0825.cn/tags/String/"/>
+    <category term="MySQL" scheme="http://blog.diobrando0825.cn/tags/MySQL/"/>
+    
+    <category term="Python" scheme="http://blog.diobrando0825.cn/tags/Python/"/>
+    
+    <category term="坑" scheme="http://blog.diobrando0825.cn/tags/%E5%9D%91/"/>
     
   </entry>
   

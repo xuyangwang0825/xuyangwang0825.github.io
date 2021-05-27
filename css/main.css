@@ -5,7 +5,7 @@
   --text-color: #555;
   --blockquote-color: #666;
   --link-color: #555;
-  --link-hover-color: #0684bd;
+  --link-hover-color: #8a2be2;
   --brand-color: #fff;
   --brand-hover-color: #fff;
   --table-row-odd-bg-color: #f9f9f9;
@@ -14,9 +14,9 @@
   --btn-default-bg: #fff;
   --btn-default-color: #555;
   --btn-default-border-color: #555;
-  --btn-default-hover-bg: #0684bd;
+  --btn-default-hover-bg: #8a2be2;
   --btn-default-hover-color: #fff;
-  --btn-default-hover-border-color: #0684bd;
+  --btn-default-hover-border-color: #8a2be2;
 }
 html {
   line-height: 1.15; /* 1 */
@@ -870,7 +870,7 @@ pre .javascript .function {
 .pagination .prev:hover,
 .pagination .next:hover,
 .pagination .page-number:hover {
-  border-top-color: #0684bd;
+  border-top-color: #8a2be2;
 }
 .pagination .space {
   margin: 0;
@@ -902,7 +902,7 @@ pre .javascript .function {
   .pagination .prev:hover,
   .pagination .next:hover,
   .pagination .page-number:hover {
-    border-bottom-color: #0684bd;
+    border-bottom-color: #8a2be2;
   }
 }
 .comments {
@@ -986,7 +986,7 @@ pre .javascript .function {
   padding: 0 10px;
 }
 .headband {
-  background: #0684bd;
+  background: #8a2be2;
   height: 3px;
 }
 .site-meta {
@@ -1000,11 +1000,11 @@ pre .javascript .function {
 }
 .brand {
   border-bottom: none;
+  color: var(--brand-color);
   display: inline-block;
   line-height: 1.375em;
   padding: 0 40px;
   position: relative;
-  color: #8a2be2 !important;
 }
 .brand:hover {
   color: var(--brand-hover-color);
@@ -1130,7 +1130,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .sidebar {
-  background: #0684bd;
+  background: #8a2be2;
   bottom: 0;
   position: fixed;
   top: 0;
@@ -1195,7 +1195,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #382934;
+  background: #7affc1;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1300,7 +1300,7 @@ pre .javascript .function {
   display: block;
 }
 .sidebar-toggle {
-  background: #0684bd;
+  background: #8a2be2;
   bottom: 45px;
   cursor: pointer;
   height: 14px;
@@ -1650,7 +1650,7 @@ pre .javascript .function {
   border-bottom-color: #666;
 }
 .posts-collapse .post-header:hover::before {
-  background: #0684bd;
+  background: #8a2be2;
 }
 .posts-collapse .post-meta {
   display: inline;
@@ -2043,11 +2043,11 @@ pre .javascript .function {
   padding: 0;
 }
 .event-list hr {
-  background: #0684bd;
+  background: #8a2be2;
   margin: 20px 0 45px 0;
 }
 .event-list hr::after {
-  background: #0684bd;
+  background: #8a2be2;
   color: #fff;
   content: 'NOW';
   display: inline-block;
@@ -2056,7 +2056,7 @@ pre .javascript .function {
   text-align: right;
 }
 .event-list .event {
-  background: #0684bd;
+  background: #8a2be2;
   margin: 20px 0;
   min-height: 40px;
   padding: 15px 0 15px 10px;
@@ -2241,7 +2241,7 @@ ul.breadcrumb li + li:last-child {
   cursor: pointer;
 }
 .search-popup .popup-btn-close:hover .fa {
-  color: #0684bd;
+  color: #8a2be2;
 }
 .search-popup .search-header {
   background: #eee;
@@ -2378,7 +2378,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .site-brand-container {
-  background-image: url("http://markdown.diobrando0825.cn/2021-05-25-052447.jpg");
+  background-image: url("http://markdown.diobrando0825.cn/2021-05-27-Screen%20Shot%202021-05-27%20at%204.13.14%20PM.png");
 }
 @media (max-width: 991px) {
   .site-brand-container {

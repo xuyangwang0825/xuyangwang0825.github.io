@@ -5,7 +5,7 @@
   --text-color: #555;
   --blockquote-color: #666;
   --link-color: #555;
-  --link-hover-color: #222;
+  --link-hover-color: #0684bd;
   --brand-color: #fff;
   --brand-hover-color: #fff;
   --table-row-odd-bg-color: #f9f9f9;
@@ -14,9 +14,9 @@
   --btn-default-bg: #fff;
   --btn-default-color: #555;
   --btn-default-border-color: #555;
-  --btn-default-hover-bg: #222;
+  --btn-default-hover-bg: #0684bd;
   --btn-default-hover-color: #fff;
-  --btn-default-hover-border-color: #222;
+  --btn-default-hover-border-color: #0684bd;
 }
 html {
   line-height: 1.15; /* 1 */
@@ -870,7 +870,7 @@ pre .javascript .function {
 .pagination .prev:hover,
 .pagination .next:hover,
 .pagination .page-number:hover {
-  border-top-color: #222;
+  border-top-color: #0684bd;
 }
 .pagination .space {
   margin: 0;
@@ -902,7 +902,7 @@ pre .javascript .function {
   .pagination .prev:hover,
   .pagination .next:hover,
   .pagination .page-number:hover {
-    border-bottom-color: #222;
+    border-bottom-color: #0684bd;
   }
 }
 .comments {
@@ -984,10 +984,9 @@ pre .javascript .function {
   display: flex;
   flex-shrink: 0;
   padding: 0 10px;
-  color: #999;
 }
 .headband {
-  background: #222;
+  background: #0684bd;
   height: 3px;
 }
 .site-meta {
@@ -1131,7 +1130,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .sidebar {
-  background: #222;
+  background: #0684bd;
   bottom: 0;
   position: fixed;
   top: 0;
@@ -1196,7 +1195,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #cbffd5;
+  background: #382934;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1301,7 +1300,7 @@ pre .javascript .function {
   display: block;
 }
 .sidebar-toggle {
-  background: #222;
+  background: #0684bd;
   bottom: 45px;
   cursor: pointer;
   height: 14px;
@@ -1651,7 +1650,7 @@ pre .javascript .function {
   border-bottom-color: #666;
 }
 .posts-collapse .post-header:hover::before {
-  background: #222;
+  background: #0684bd;
 }
 .posts-collapse .post-meta {
   display: inline;
@@ -2044,11 +2043,11 @@ pre .javascript .function {
   padding: 0;
 }
 .event-list hr {
-  background: #222;
+  background: #0684bd;
   margin: 20px 0 45px 0;
 }
 .event-list hr::after {
-  background: #222;
+  background: #0684bd;
   color: #fff;
   content: 'NOW';
   display: inline-block;
@@ -2057,7 +2056,7 @@ pre .javascript .function {
   text-align: right;
 }
 .event-list .event {
-  background: #222;
+  background: #0684bd;
   margin: 20px 0;
   min-height: 40px;
   padding: 15px 0 15px 10px;
@@ -2242,7 +2241,7 @@ ul.breadcrumb li + li:last-child {
   cursor: pointer;
 }
 .search-popup .popup-btn-close:hover .fa {
-  color: #222;
+  color: #0684bd;
 }
 .search-popup .search-header {
   background: #eee;
@@ -2379,7 +2378,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .site-brand-container {
-  background: #222;
+  background-image: url("http://markdown.diobrando0825.cn/2021-05-25-052447.jpg");
 }
 @media (max-width: 991px) {
   .site-brand-container {

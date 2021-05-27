@@ -1223,7 +1223,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #4fba05;
+  background: #e76af0;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2468,7 +2468,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .menu .menu-item .badge {
-  background: #ccc;
+  background: #8a2be2;
   border-radius: 10px;
   color: #fff;
   float: right;

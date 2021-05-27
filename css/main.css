@@ -1223,7 +1223,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #375ce5;
+  background: #ba99ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1826,7 +1826,7 @@ pre .javascript .function {
   vertical-align: top;
 }
 .posts-expand .post-title-link::before {
-  background: var(--link-color);
+  background: #8a2be2;
   bottom: 0;
   content: '';
   height: 2px;
@@ -2304,8 +2304,8 @@ ul.breadcrumb li + li:last-child {
   font-weight: bold;
 }
 .search-popup .search-keyword {
-  border-bottom: 1px dashed #ff2a2a;
-  color: #ff2a2a;
+  border-bottom: 1px dashed #ffd259;
+  color: #ffd259;
   font-weight: bold;
 }
 .search-popup #search-result {

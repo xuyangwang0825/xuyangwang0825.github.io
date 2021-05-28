@@ -28,7 +28,7 @@
 <meta property="og:description" content="本人的一些自我介绍   教育背景 南加州大学      2021.9-2023.5 北京工业大学    2020.9-2021.7 北京航空航天大学 2017.9-2020.9">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-05-24T11:45:10.000Z">
-<meta property="article:modified_time" content="2021-05-27T12:06:58.723Z">
+<meta property="article:modified_time" content="2021-05-28T14:51:59.176Z">
 <meta property="article:author" content="Xuyang Wang">
 <meta name="twitter:card" content="summary">
 
@@ -217,7 +217,10 @@
       
       
       <div class="post-body">
-          <blockquote>
+          <br>
+<div class="pdfobject-container" data-target="index.pdf" data-height="500px"></div>
+</br>
+<blockquote>
 <p>本人的一些自我介绍</p>
 </blockquote>
 <h2 id="教育背景"><a class="markdownIt-Anchor" href="#教育背景"></a> 教育背景</h2>
@@ -545,6 +548,26 @@ window.addEventListener('pjax:success', () => {
 
 
 
+<script data-pjax>
+document.querySelectorAll('.pdfobject-container').forEach(element => {
+  let url = element.dataset.target;
+  let pdfOpenParams = {
+    navpanes : 0,
+    toolbar  : 0,
+    statusbar: 0,
+    pagemode : 'thumbs',
+    view     : 'FitH'
+  };
+  let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+
+  if (NexT.utils.supportsPDFs()) {
+    element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
+  } else {
+    element.innerHTML = `<iframe src="${fullURL}" style="height: ${element.dataset.height};" frameborder="0"></iframe>`;
+  }
+});
+</script>
 
 
 

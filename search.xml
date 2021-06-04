@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>My New Post</title>
-    <url>/2021/05/24/My-New-Post/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
-<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>杂</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>读书</tag>
-        <tag>电影</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python中Mysqldb传递参数的坑</title>
     <url>/2021/05/24/Python%E4%B8%ADMysqldb%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0%E7%9A%84%E5%9D%91/</url>
     <content><![CDATA[<p>今天在实现业务逻辑的过程中遇到了一些Mysqldb传递参数的坑，在此记录一下。</p>
@@ -56,37 +29,68 @@
       </tags>
   </entry>
   <entry>
-    <title>gRPC-Gateway</title>
-    <url>/2021/06/04/gRPC-Gateway/</url>
-    <content><![CDATA[<h1 id="grpc-gateway"><a class="markdownIt-Anchor" href="#grpc-gateway"></a> gRPC-Gateway——</h1>
+    <title>如何在go服务中同时生成gRPC以及RESTful两种api</title>
+    <url>/2021/06/04/%E5%A6%82%E4%BD%95%E5%9C%A8go%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%90%8C%E6%97%B6%E7%94%9F%E6%88%90gRPC%E4%BB%A5%E5%8F%8ARESTful%E4%B8%A4%E7%A7%8Dapi/</url>
+    <content><![CDATA[<h2 id="grpc-介绍"><a class="markdownIt-Anchor" href="#grpc-介绍"></a> gRPC 介绍</h2>
 <p>gRPC是一种广泛应用的RPC框架，其在性能和兼容性上都有一定的提升：</p>
 <ul>
 <li>使用Protobuf进行数据编码，实现了很高的数据压缩率</li>
 <li>使用HTTP2.0弥补了HTTP1.1的不足，例如多路复用的机制让连接数量减少</li>
 </ul>
 <p>但是在实际的应用过程中，我们可能不仅需要gRPC完成内部各微服务之间的交互，很多时候也需要对外仍然使用RESTful类型的api。同时实现两种形式的api接口是一种解决方案，但这样不仅降低开发效率也增加了调试难度。gRPC-Gateway很好地解决的这个问题，其实现方法如下图，gRPC-Gateway以网关的形式将RESTful的api转化为gRPC的形式：</p>
+<span id="more"></span>
 <p><img src="http://markdown.diobrando0825.cn/2021-06-04-architecture_introduction_diagram.svg" alt="" /></p>
 <p>本文就直接略去gRPC以及gRPC-Gateway的安装步骤以及普通的使用方式介绍，直接介绍如何将gRPC-Gateway应用于普通方式中。下面的proto文件中✅ 部分为使用gRPC-Gateway需要增加的部分。</p>
-<h3 id="proto文件结构"><a class="markdownIt-Anchor" href="#proto文件结构"></a> proto文件结构</h3>
+<h2 id="编写-proto-文件"><a class="markdownIt-Anchor" href="#编写-proto-文件"></a> 编写 proto 文件</h2>
 <figure class="highlight protobuf"><table><tr><td class="code"><pre><span class="line"><span class="comment">// tmp.proto</span></span><br><span class="line"><span class="comment">// 使用proto2/3语法</span></span><br><span class="line">syntax = <span class="string">&quot;proto3&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// ✅ 引入google api官方扩展包</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;google/api/annotations.proto&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 包/作用域/name space</span></span><br><span class="line"><span class="keyword">package</span> tmp</span><br><span class="line"></span><br><span class="line"><span class="comment">// option go_package = &quot;path;name&quot;</span></span><br><span class="line"><span class="comment">// path表示生成的go文件存放的位置，name表示生成的go文件所属的包</span></span><br><span class="line"><span class="keyword">option</span> go_package = <span class="string">&quot;.;tmp&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//--------Message--------</span></span><br><span class="line"><span class="class"><span class="keyword">message</span> <span class="title">TmpReq</span> </span>&#123;</span><br><span class="line">	<span class="built_in">int64</span> field1  = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">string</span> field2 = <span class="number">2</span>;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">message</span> <span class="title">TmpResp</span> </span>&#123;</span><br><span class="line">	<span class="built_in">int64</span> field1  = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">string</span> field2 = <span class="number">2</span>;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//--------Service--------</span></span><br><span class="line"><span class="class"><span class="keyword">service</span> <span class="title">TmpService</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">rpc</span> TmpFunc(TmpReq) <span class="keyword">returns</span> (TmpResp) </span>&#123; </span><br><span class="line">	<span class="comment">// ✅ google.api.http</span></span><br><span class="line">	<span class="keyword">option</span> (google.api.http) = &#123;</span><br><span class="line">		post: <span class="string">&quot;/tmp_func&quot;</span></span><br><span class="line">		body: *</span><br><span class="line">	&#125;,&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="生成tmppbgwgo"><a class="markdownIt-Anchor" href="#生成tmppbgwgo"></a> 生成tmp.pb.gw.go</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --grpc-gateway_out=logtostderr=<span class="literal">true</span>:. *.proto</span><br></pre></td></tr></table></figure>
-<h4 id="参考文献"><a class="markdownIt-Anchor" href="#参考文献"></a> 参考文献</h4>
+<h2 id="生成文件"><a class="markdownIt-Anchor" href="#生成文件"></a> 生成文件</h2>
+<h3 id="生成tmppbgo-grpc"><a class="markdownIt-Anchor" href="#生成tmppbgo-grpc"></a> 生成tmp.pb.go (gRPC)</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --go_out=plugins=grpc:. tmp.proto</span><br></pre></td></tr></table></figure>
+<h3 id="生成tmppbgwgo-http"><a class="markdownIt-Anchor" href="#生成tmppbgwgo-http"></a> 生成tmp.pb.gw.go (http) ✅</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --grpc-gateway_out=logtostderr=<span class="literal">true</span>:. tmp.proto </span><br></pre></td></tr></table></figure>
+<h3 id="生成swagger"><a class="markdownIt-Anchor" href="#生成swagger"></a> 生成swagger</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --go_out=plugins=grpc:. tmp.proto</span><br></pre></td></tr></table></figure>
+<h2 id="启动服务"><a class="markdownIt-Anchor" href="#启动服务"></a> 启动服务</h2>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">&quot;flag&quot;</span></span><br><span class="line">	<span class="string">&quot;net/http&quot;</span></span><br><span class="line"></span><br><span class="line">	<span class="string">&quot;github.com/golang/glog&quot;</span></span><br><span class="line">	<span class="string">&quot;github.com/grpc-ecosystem/grpc-gateway/runtime&quot;</span></span><br><span class="line">	<span class="string">&quot;golang.org/x/net/context&quot;</span></span><br><span class="line">	<span class="string">&quot;google.golang.org/grpc&quot;</span></span><br><span class="line"></span><br><span class="line">	gw <span class="string">&quot;grpc-helloworld-gateway/helloworld&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> (</span><br><span class="line">	echoEndpoint = flag.String(<span class="string">&quot;echo_endpoint&quot;</span>, <span class="string">&quot;localhost:50051&quot;</span>, <span class="string">&quot;endpoint of YourService&quot;</span>)</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">run</span><span class="params">()</span> <span class="title">error</span></span> &#123;</span><br><span class="line">	ctx := context.Background()</span><br><span class="line">	ctx, cancel := context.WithCancel(ctx)</span><br><span class="line">	<span class="keyword">defer</span> cancel()</span><br><span class="line"></span><br><span class="line">	mux := runtime.NewServeMux()</span><br><span class="line">	opts := []grpc.DialOption&#123;grpc.WithInsecure()&#125;</span><br><span class="line">	err := gw.RegisterGreeterHandlerFromEndpoint(ctx, mux, *echoEndpoint, opts)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> err</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> http.ListenAndServe(<span class="string">&quot;:8080&quot;</span>, mux)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	flag.Parse()</span><br><span class="line">	<span class="keyword">defer</span> glog.Flush()</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> err := run(); err != <span class="literal">nil</span> &#123;</span><br><span class="line">		glog.Fatal(err)</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="参考文献"><a class="markdownIt-Anchor" href="#参考文献"></a> 参考文献</h3>
 <ul>
-<li>
-<p><a href="https://grpc.io/docs/what-is-grpc/introduction/">gRPC</a></p>
-</li>
-<li>
-<p><a href="https://github.com/grpc-ecosystem/grpc-gateway">gRPC-Gateway</a></p>
-</li>
-<li>
-<p><a href="https://developers.google.com/protocol-buffers">Protocal Buffers</a></p>
-</li>
+<li><a href="https://grpc.io/docs/what-is-grpc/introduction/">gRPC</a></li>
+<li><a href="https://github.com/grpc-ecosystem/grpc-gateway">gRPC-Gateway</a></li>
+<li><a href="https://developers.google.com/protocol-buffers">Protocal Buffers</a>\</li>
+<li><a href="https://www.cnblogs.com/andyidea/archive/2017/03/10/6529900.html">grpc转换为http协议对外提供服务</a></li>
 </ul>
 ]]></content>
       <tags>
+        <tag>Golang</tag>
         <tag>gRPC</tag>
         <tag>ProtoBuf</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My New Post</title>
+    <url>/2021/05/24/My-New-Post/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
+<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>杂</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>读书</tag>
+        <tag>电影</tag>
       </tags>
   </entry>
 </search>

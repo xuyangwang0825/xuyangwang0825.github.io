@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.diobrando0825.cn/2021/06/04/%E5%A6%82%E4%BD%95%E5%9C%A8go%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%90%8C%E6%97%B6%E7%94%9F%E6%88%90gRPC%E4%BB%A5%E5%8F%8ARESTful%E4%B8%A4%E7%A7%8Dapi/</loc>
+    <loc>http://blog.diobrando0825.cn/posts/2193376716/</loc>
     
-    <lastmod>2021-06-04</lastmod>
+    <lastmod>2021-06-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.diobrando0825.cn/posts/3675602205/</loc>
+    
+    <lastmod>2021-06-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.diobrando0825.cn/posts/0/</loc>
+    
+    <lastmod>2021-06-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.diobrando0825.cn/posts/1907751636/</loc>
+    
+    <lastmod>2021-06-08</lastmod>
     
   </url>
   
@@ -16,14 +37,14 @@
   </url>
   
   <url>
-    <loc>http://blog.diobrando0825.cn/2021/05/24/Python%E4%B8%ADMysqldb%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0%E7%9A%84%E5%9D%91/</loc>
+    <loc>http://blog.diobrando0825.cn/posts/3427391172/</loc>
     
     <lastmod>2021-05-28</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.diobrando0825.cn/2021/05/24/My-New-Post/</loc>
+    <loc>http://blog.diobrando0825.cn/posts/393573562/</loc>
     
     <lastmod>2021-05-25</lastmod>
     
@@ -46,7 +67,7 @@
 
   <url>
     <loc>http://blog.diobrando0825.cn/</loc>
-    <lastmod>2021-06-04</lastmod>
+    <lastmod>2021-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -54,63 +75,63 @@
   
   <url>
     <loc>http://blog.diobrando0825.cn/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2021-06-04</lastmod>
+    <lastmod>2021-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.diobrando0825.cn/tags/%E8%AF%BB%E4%B9%A6/</loc>
-    <lastmod>2021-06-04</lastmod>
+    <lastmod>2021-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.diobrando0825.cn/tags/%E7%94%B5%E5%BD%B1/</loc>
-    <lastmod>2021-06-04</lastmod>
+    <lastmod>2021-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.diobrando0825.cn/tags/MySQL/</loc>
-    <lastmod>2021-06-04</lastmod>
+    <lastmod>2021-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.diobrando0825.cn/tags/Python/</loc>
-    <lastmod>2021-06-04</lastmod>
+    <lastmod>2021-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.diobrando0825.cn/tags/%E5%9D%91/</loc>
-    <lastmod>2021-06-04</lastmod>
+    <lastmod>2021-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.diobrando0825.cn/tags/Golang/</loc>
-    <lastmod>2021-06-04</lastmod>
+    <lastmod>2021-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.diobrando0825.cn/tags/gRPC/</loc>
-    <lastmod>2021-06-04</lastmod>
+    <lastmod>2021-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.diobrando0825.cn/tags/ProtoBuf/</loc>
-    <lastmod>2021-06-04</lastmod>
+    <lastmod>2021-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -119,14 +140,14 @@
   
   <url>
     <loc>http://blog.diobrando0825.cn/categories/%E6%9D%82/</loc>
-    <lastmod>2021-06-04</lastmod>
+    <lastmod>2021-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.diobrando0825.cn/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
-    <lastmod>2021-06-04</lastmod>
+    <lastmod>2021-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

@@ -102,27 +102,6 @@
   </url>
   
   <url>
-    <loc>https://blog.diobrando0825.cn/tags/%E7%B1%BB%E5%9E%8B%E6%96%AD%E8%A8%80/</loc>
-    <lastmod>2021-06-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.diobrando0825.cn/tags/Golang/</loc>
-    <lastmod>2021-06-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.diobrando0825.cn/tags/Interface/</loc>
-    <lastmod>2021-06-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.diobrando0825.cn/tags/MySQL/</loc>
     <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
@@ -138,6 +117,27 @@
   
   <url>
     <loc>https://blog.diobrando0825.cn/tags/%E5%9D%91/</loc>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.diobrando0825.cn/tags/%E7%B1%BB%E5%9E%8B%E6%96%AD%E8%A8%80/</loc>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.diobrando0825.cn/tags/Golang/</loc>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.diobrando0825.cn/tags/Interface/</loc>
     <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

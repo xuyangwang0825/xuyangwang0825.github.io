@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.diobrando0825.cn/2021/06/08/21FALL%E8%8B%B1%E7%BE%8E%E6%B7%B7%E7%94%B3%E7%BB%8F%E9%AA%8C/</loc>
+    
+    <lastmod>2021-06-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.diobrando0825.cn/2021/06/08/golang%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20interface%20%E5%AE%9E%E7%8E%B0%E5%90%8C%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E8%BF%94%E5%9B%9E%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E7%9A%84%E7%BB%93%E6%9E%9C/</loc>
     
     <lastmod>2021-06-17</lastmod>
@@ -16,16 +23,9 @@
   </url>
   
   <url>
-    <loc>http://blog.diobrando0825.cn/2021/06/08/21FALL%E8%8B%B1%E7%BE%8E%E6%B7%B7%E7%94%B3%E7%BB%8F%E9%AA%8C/</loc>
-    
-    <lastmod>2021-06-17</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.diobrando0825.cn/2021/06/04/%E5%A6%82%E4%BD%95%E5%9C%A8%20go%20%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%90%8C%E6%97%B6%E7%94%9F%E6%88%90%20gRPC%20%E4%BB%A5%E5%8F%8A%20RESTful%20%E4%B8%A4%E7%A7%8D%E3%80%8Capi%E3%80%8D/</loc>
     
-    <lastmod>2021-06-16</lastmod>
+    <lastmod>2021-06-17</lastmod>
     
   </url>
   
@@ -116,7 +116,21 @@
   </url>
   
   <url>
+    <loc>http://blog.diobrando0825.cn/tags/%E7%B1%BB%E5%9E%8B%E6%96%AD%E8%A8%80/</loc>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.diobrando0825.cn/tags/Golang/</loc>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.diobrando0825.cn/tags/Interface/</loc>
     <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

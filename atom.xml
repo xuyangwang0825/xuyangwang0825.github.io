@@ -6,7 +6,7 @@
   <link href="http://blog.diobrando0825.cn/atom.xml" rel="self"/>
   
   <link href="http://blog.diobrando0825.cn/"/>
-  <updated>2021-06-16T12:15:44.899Z</updated>
+  <updated>2021-06-17T07:32:44.575Z</updated>
   <id>http://blog.diobrando0825.cn/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>22Summer SDE Intern 记录</title>
+    <title>记录</title>
     <link href="http://blog.diobrando0825.cn/2021/06/16/%E8%AE%B0%E5%BD%95/"/>
     <id>http://blog.diobrando0825.cn/2021/06/16/%E8%AE%B0%E5%BD%95/</id>
     <published>2021-06-16T06:53:25.000Z</published>
-    <updated>2021-06-16T12:15:44.899Z</updated>
+    <updated>2021-06-17T07:32:44.575Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>A - Companies</p></blockquote><ul><li>Adobe</li><li>Akuna <a href="https://akunacapital.com/job-details?gh_jid=3170386">SDE</a></li><li>Amazon <a href="https://www.amazon.jobs/en/jobs/1557929/software-development-engineer-internship-summer-2022-us">SDE</a></li><li>Apple</li><li>Autodesk</li></ul><span id="more"></span><blockquote><p>B - Companies</p></blockquote><ul><li>Bank of America</li><li>Blackrock</li><li>Bloomberg</li></ul><blockquote><p>C - Companies</p></blockquote><ul><li>Cadence</li><li>Capital One</li><li>Chase</li><li>Cisco</li><li>Citadel</li><li>Citrix</li></ul><blockquote><p>D - Companies</p></blockquote><ul><li>Databricks</li><li>Dell</li><li>Dropbox</li></ul><blockquote><p>F - Companies</p></blockquote><ul><li>Facebook</li></ul><blockquote><p>G - Companies</p></blockquote><ul><li>Goldman Sachs</li><li>Google</li></ul><blockquote><p>I - Companies</p></blockquote><ul><li>IBM</li><li>Indeed</li><li>Intel</li><li>Intuit</li></ul><blockquote><p>J - Companies</p></blockquote><ul><li>JP Morgan</li></ul><blockquote><p>K - Companies</p></blockquote><ul><li>KPMG</li></ul><blockquote><p>L - Companies</p></blockquote><ul><li>Lime</li><li>LinkedIn</li><li>Lyft</li></ul><blockquote><p>M - Companies</p></blockquote><ul><li>Microsoft</li><li>Morgan Stanley</li></ul><blockquote><p>P - Companies</p></blockquote><ul><li>Paypal</li></ul><blockquote><p>Q - Companies</p></blockquote><ul><li>Qualtrics</li><li>Qualcomm</li></ul><blockquote><p>R - Companies</p></blockquote><ul><li>Robinhood</li><li>Red Hat</li></ul><blockquote><p>S - Companies</p></blockquote><ul><li>Salesforce <a href="https://salesforce.wd1.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Summer-2022-Intern---Software-Engineer_JR100559-1?source=JobBoard_Indeed">SDE Intern</a></li><li>SAP</li></ul><blockquote><p>T - Companies</p></blockquote><ul><li>Tesla</li><li>Tripadvisor</li><li>Tusimple</li><li>Two Sigma</li><li>Twitter</li></ul><blockquote><p>U - Companies</p></blockquote><ul><li>Uber</li></ul><blockquote><p>Y - Companies</p></blockquote><ul><li>Yahoo</li><li>Yelp</li></ul>]]></content>
     
@@ -49,7 +49,7 @@
     <link href="http://blog.diobrando0825.cn/2021/06/08/golang%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20interface%20%E5%AE%9E%E7%8E%B0%E5%90%8C%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E8%BF%94%E5%9B%9E%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E7%9A%84%E7%BB%93%E6%9E%9C/"/>
     <id>http://blog.diobrando0825.cn/2021/06/08/golang%20%E4%B8%AD%E4%BD%BF%E7%94%A8%20interface%20%E5%AE%9E%E7%8E%B0%E5%90%8C%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E8%BF%94%E5%9B%9E%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E7%9A%84%E7%BB%93%E6%9E%9C/</id>
     <published>2021-06-08T09:07:06.966Z</published>
-    <updated>2021-06-16T11:47:48.242Z</updated>
+    <updated>2021-06-17T07:32:37.153Z</updated>
     
     <content type="html"><![CDATA[<hr /><p>title: golang 中使用 interface 实现同一个函数返回不同类型的结果<br />date: 2021-06-08 17:07:06<br />tags: [类型断言, Golang, Interface]</p><figure class="highlight golang"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -69,11 +69,11 @@ tags: [类型断言, Golang, Interface]&lt;/p&gt;
   </entry>
   
   <entry>
-    <title>21FALL CS/DS/ECE Master英美混申经验</title>
-    <link href="http://blog.diobrando0825.cn/2021/06/08/21FALL%E7%94%B3%E8%AF%B7%E7%BB%8F%E9%AA%8C/"/>
-    <id>http://blog.diobrando0825.cn/2021/06/08/21FALL%E7%94%B3%E8%AF%B7%E7%BB%8F%E9%AA%8C/</id>
+    <title>21FALL英美混申经验</title>
+    <link href="http://blog.diobrando0825.cn/2021/06/08/21FALL%E8%8B%B1%E7%BE%8E%E6%B7%B7%E7%94%B3%E7%BB%8F%E9%AA%8C/"/>
+    <id>http://blog.diobrando0825.cn/2021/06/08/21FALL%E8%8B%B1%E7%BE%8E%E6%B7%B7%E7%94%B3%E7%BB%8F%E9%AA%8C/</id>
     <published>2021-06-08T06:06:30.000Z</published>
-    <updated>2021-06-16T11:46:40.642Z</updated>
+    <updated>2021-06-17T07:32:12.991Z</updated>
     
     <content type="html"><![CDATA[<h1 id="123"><a class="markdownIt-Anchor" href="#123"></a> 123</h1><h2 id="132"><a class="markdownIt-Anchor" href="#132"></a> 132</h2><h3 id="123-2"><a class="markdownIt-Anchor" href="#123-2"></a> 123</h3><h4 id="123-3"><a class="markdownIt-Anchor" href="#123-3"></a> 123</h4><h5 id="123-4"><a class="markdownIt-Anchor" href="#123-4"></a> 123</h5><h1 id="背景介绍"><a class="markdownIt-Anchor" href="#背景介绍"></a> 背景介绍</h1><p>三维：GPA 3.28 (最后三个学期3.61) TOEFL 108(S25) GRE 323(153+170+3.5)</p><h1 id="申请-timeline"><a class="markdownIt-Anchor" href="#申请-timeline"></a> 申请 Timeline</h1><p><img src="https://markdown.diobrando0825.cn/2021-06-08-Screen%20Shot%202021-06-08%20at%203.35.24%20PM.png" alt="" /></p><h1 id="具体的申请准备"><a class="markdownIt-Anchor" href="#具体的申请准备"></a> 具体的申请准备：</h1><h2 id="三维"><a class="markdownIt-Anchor" href="#三维"></a> 三维</h2><h2 id="科研实习"><a class="markdownIt-Anchor" href="#科研实习"></a> 科研/实习</h2><h1 id="软硬实力对于申请的影响和作用"><a class="markdownIt-Anchor" href="#软硬实力对于申请的影响和作用"></a> 软硬实力对于申请的影响和作用</h1><h1 id="给学习学妹们的建议"><a class="markdownIt-Anchor" href="#给学习学妹们的建议"></a> 给学习学妹们的建议</h1>]]></content>
     

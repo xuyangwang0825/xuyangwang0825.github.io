@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xuyangwang0825.github.io/posts/3632233996/</loc>
-    
-    <lastmod>2021-06-17</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://xuyangwang0825.github.io/posts/43661/</loc>
     
     <lastmod>2021-06-17</lastmod>
@@ -81,27 +74,6 @@
 
   
   <url>
-    <loc>https://xuyangwang0825.github.io/tags/MySQL/</loc>
-    <lastmod>2021-06-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuyangwang0825.github.io/tags/Python/</loc>
-    <lastmod>2021-06-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuyangwang0825.github.io/tags/%E5%9D%91/</loc>
-    <lastmod>2021-06-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xuyangwang0825.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
@@ -123,7 +95,21 @@
   </url>
   
   <url>
-    <loc>https://xuyangwang0825.github.io/tags/%E7%B1%BB%E5%9E%8B%E6%96%AD%E8%A8%80/</loc>
+    <loc>https://xuyangwang0825.github.io/tags/MySQL/</loc>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuyangwang0825.github.io/tags/Python/</loc>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuyangwang0825.github.io/tags/%E5%9D%91/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -131,13 +117,6 @@
   
   <url>
     <loc>https://xuyangwang0825.github.io/tags/Golang/</loc>
-    <lastmod>2021-06-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuyangwang0825.github.io/tags/Interface/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -158,6 +137,20 @@
   </url>
   
   <url>
+    <loc>https://xuyangwang0825.github.io/tags/%E7%B1%BB%E5%9E%8B%E6%96%AD%E8%A8%80/</loc>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuyangwang0825.github.io/tags/Interface/</loc>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xuyangwang0825.github.io/tags/Intern/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
@@ -167,14 +160,14 @@
 
   
   <url>
-    <loc>https://xuyangwang0825.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>https://xuyangwang0825.github.io/categories/%E6%9D%82/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://xuyangwang0825.github.io/categories/%E6%9D%82/</loc>
+    <loc>https://xuyangwang0825.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

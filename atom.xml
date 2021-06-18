@@ -3,11 +3,11 @@
   <title>Xuyang&#39;s Blooooog!</title>
   
   
-  <link href="https://blog.diobrando0825.cn/atom.xml" rel="self"/>
+  <link href="https://xuyangwang0825.github.io/atom.xml" rel="self"/>
   
-  <link href="https://blog.diobrando0825.cn/"/>
+  <link href="https://xuyangwang0825.github.io/"/>
   <updated>2021-06-17T07:57:41.094Z</updated>
-  <id>https://blog.diobrando0825.cn/</id>
+  <id>https://xuyangwang0825.github.io/</id>
   
   <author>
     <name>Xuyang Wang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>test</title>
-    <link href="https://blog.diobrando0825.cn/posts/3632233996/"/>
-    <id>https://blog.diobrando0825.cn/posts/3632233996/</id>
+    <link href="https://xuyangwang0825.github.io/posts/3632233996/"/>
+    <id>https://xuyangwang0825.github.io/posts/3632233996/</id>
     <published>2021-06-17T07:57:35.000Z</published>
     <updated>2021-06-17T07:57:41.094Z</updated>
     
@@ -31,8 +31,8 @@
   
   <entry>
     <title>记录</title>
-    <link href="https://blog.diobrando0825.cn/posts/2193376716/"/>
-    <id>https://blog.diobrando0825.cn/posts/2193376716/</id>
+    <link href="https://xuyangwang0825.github.io/posts/2193376716/"/>
+    <id>https://xuyangwang0825.github.io/posts/2193376716/</id>
     <published>2021-06-16T06:53:25.158Z</published>
     <updated>2021-06-17T07:46:01.674Z</updated>
     
@@ -53,14 +53,14 @@
     
     
     
-    <category term="Intern" scheme="https://blog.diobrando0825.cn/tags/Intern/"/>
+    <category term="Intern" scheme="https://xuyangwang0825.github.io/tags/Intern/"/>
     
   </entry>
   
   <entry>
     <title>golang 中使用 interface 实现同一个函数返回不同类型的结果</title>
-    <link href="https://blog.diobrando0825.cn/posts/43661/"/>
-    <id>https://blog.diobrando0825.cn/posts/43661/</id>
+    <link href="https://xuyangwang0825.github.io/posts/43661/"/>
+    <id>https://xuyangwang0825.github.io/posts/43661/</id>
     <published>2021-06-08T09:07:06.000Z</published>
     <updated>2021-06-17T07:46:40.622Z</updated>
     
@@ -75,18 +75,18 @@
     
     
     
-    <category term="类型断言" scheme="https://blog.diobrando0825.cn/tags/%E7%B1%BB%E5%9E%8B%E6%96%AD%E8%A8%80/"/>
+    <category term="类型断言" scheme="https://xuyangwang0825.github.io/tags/%E7%B1%BB%E5%9E%8B%E6%96%AD%E8%A8%80/"/>
     
-    <category term="Golang" scheme="https://blog.diobrando0825.cn/tags/Golang/"/>
+    <category term="Golang" scheme="https://xuyangwang0825.github.io/tags/Golang/"/>
     
-    <category term="Interface" scheme="https://blog.diobrando0825.cn/tags/Interface/"/>
+    <category term="Interface" scheme="https://xuyangwang0825.github.io/tags/Interface/"/>
     
   </entry>
   
   <entry>
     <title>21FALL英美混申经验</title>
-    <link href="https://blog.diobrando0825.cn/posts/1907751636/"/>
-    <id>https://blog.diobrando0825.cn/posts/1907751636/</id>
+    <link href="https://xuyangwang0825.github.io/posts/1907751636/"/>
+    <id>https://xuyangwang0825.github.io/posts/1907751636/</id>
     <published>2021-06-08T06:06:30.773Z</published>
     <updated>2021-06-17T07:46:35.878Z</updated>
     
@@ -107,8 +107,8 @@
   
   <entry>
     <title>如何在 go 服务中同时生成 gRPC 以及 RESTful 两种「api」</title>
-    <link href="https://blog.diobrando0825.cn/posts/3675602205/"/>
-    <id>https://blog.diobrando0825.cn/posts/3675602205/</id>
+    <link href="https://xuyangwang0825.github.io/posts/3675602205/"/>
+    <id>https://xuyangwang0825.github.io/posts/3675602205/</id>
     <published>2021-06-04T06:00:07.103Z</published>
     <updated>2021-06-17T07:45:57.716Z</updated>
     
@@ -126,18 +126,18 @@
     
     
     
-    <category term="Golang" scheme="https://blog.diobrando0825.cn/tags/Golang/"/>
+    <category term="Golang" scheme="https://xuyangwang0825.github.io/tags/Golang/"/>
     
-    <category term="gRPC" scheme="https://blog.diobrando0825.cn/tags/gRPC/"/>
+    <category term="gRPC" scheme="https://xuyangwang0825.github.io/tags/gRPC/"/>
     
-    <category term="ProtoBuf" scheme="https://blog.diobrando0825.cn/tags/ProtoBuf/"/>
+    <category term="ProtoBuf" scheme="https://xuyangwang0825.github.io/tags/ProtoBuf/"/>
     
   </entry>
   
   <entry>
     <title>My New Post</title>
-    <link href="https://blog.diobrando0825.cn/posts/393573562/"/>
-    <id>https://blog.diobrando0825.cn/posts/393573562/</id>
+    <link href="https://xuyangwang0825.github.io/posts/393573562/"/>
+    <id>https://xuyangwang0825.github.io/posts/393573562/</id>
     <published>2021-05-24T09:14:02.552Z</published>
     <updated>2021-06-16T11:46:40.643Z</updated>
     
@@ -151,21 +151,21 @@
     
     
     
-    <category term="杂" scheme="https://blog.diobrando0825.cn/categories/%E6%9D%82/"/>
+    <category term="杂" scheme="https://xuyangwang0825.github.io/categories/%E6%9D%82/"/>
     
     
-    <category term="生活" scheme="https://blog.diobrando0825.cn/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://xuyangwang0825.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="读书" scheme="https://blog.diobrando0825.cn/tags/%E8%AF%BB%E4%B9%A6/"/>
+    <category term="读书" scheme="https://xuyangwang0825.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
     
-    <category term="电影" scheme="https://blog.diobrando0825.cn/tags/%E7%94%B5%E5%BD%B1/"/>
+    <category term="电影" scheme="https://xuyangwang0825.github.io/tags/%E7%94%B5%E5%BD%B1/"/>
     
   </entry>
   
   <entry>
     <title>Python中Mysqldb传递参数的坑</title>
-    <link href="https://blog.diobrando0825.cn/posts/3427391172/"/>
-    <id>https://blog.diobrando0825.cn/posts/3427391172/</id>
+    <link href="https://xuyangwang0825.github.io/posts/3427391172/"/>
+    <id>https://xuyangwang0825.github.io/posts/3427391172/</id>
     <published>2021-05-24T08:40:18.615Z</published>
     <updated>2021-06-16T11:46:40.645Z</updated>
     
@@ -178,14 +178,14 @@
     
     
     
-    <category term="数据库" scheme="https://blog.diobrando0825.cn/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <category term="数据库" scheme="https://xuyangwang0825.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
-    <category term="MySQL" scheme="https://blog.diobrando0825.cn/tags/MySQL/"/>
+    <category term="MySQL" scheme="https://xuyangwang0825.github.io/tags/MySQL/"/>
     
-    <category term="Python" scheme="https://blog.diobrando0825.cn/tags/Python/"/>
+    <category term="Python" scheme="https://xuyangwang0825.github.io/tags/Python/"/>
     
-    <category term="坑" scheme="https://blog.diobrando0825.cn/tags/%E5%9D%91/"/>
+    <category term="坑" scheme="https://xuyangwang0825.github.io/tags/%E5%9D%91/"/>
     
   </entry>
   

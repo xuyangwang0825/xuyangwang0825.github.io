@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>21FALL英美混申经验</title>
-    <url>/posts/1907751636/</url>
-    <content><![CDATA[<h1 id="123"><a class="markdownIt-Anchor" href="#123"></a> 123</h1>
-<h2 id="132"><a class="markdownIt-Anchor" href="#132"></a> 132</h2>
-<h3 id="123-2"><a class="markdownIt-Anchor" href="#123-2"></a> 123</h3>
-<h4 id="123-3"><a class="markdownIt-Anchor" href="#123-3"></a> 123</h4>
-<h5 id="123-4"><a class="markdownIt-Anchor" href="#123-4"></a> 123</h5>
-<h1 id="背景介绍"><a class="markdownIt-Anchor" href="#背景介绍"></a> 背景介绍</h1>
-<p>三维：GPA 3.28 (最后三个学期3.61) TOEFL 108(S25) GRE 323(153+170+3.5)</p>
-<h1 id="申请-timeline"><a class="markdownIt-Anchor" href="#申请-timeline"></a> 申请 Timeline</h1>
-<p><img src="https://markdown.diobrando0825.cn/2021-06-08-Screen%20Shot%202021-06-08%20at%203.35.24%20PM.png" alt="" /></p>
-<h1 id="具体的申请准备"><a class="markdownIt-Anchor" href="#具体的申请准备"></a> 具体的申请准备：</h1>
-<h2 id="三维"><a class="markdownIt-Anchor" href="#三维"></a> 三维</h2>
-<h2 id="科研实习"><a class="markdownIt-Anchor" href="#科研实习"></a> 科研/实习</h2>
-<h1 id="软硬实力对于申请的影响和作用"><a class="markdownIt-Anchor" href="#软硬实力对于申请的影响和作用"></a> 软硬实力对于申请的影响和作用</h1>
-<h1 id="给学习学妹们的建议"><a class="markdownIt-Anchor" href="#给学习学妹们的建议"></a> 给学习学妹们的建议</h1>
-]]></content>
-  </entry>
-  <entry>
     <title>My New Post</title>
     <url>/posts/393573562/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -75,160 +56,23 @@
       </tags>
   </entry>
   <entry>
-    <title>golang 中使用 interface 实现同一个函数返回不同类型的结果</title>
-    <url>/posts/43661/</url>
-    <content><![CDATA[<figure class="highlight golang"><table><tr><td class="code"><pre><span class="line"><span class="number">123</span></span><br></pre></td></tr></table></figure>
+    <title>21FALL英美混申经验</title>
+    <url>/posts/1907751636/</url>
+    <content><![CDATA[<h1 id="123"><a class="markdownIt-Anchor" href="#123"></a> 123</h1>
+<h2 id="132"><a class="markdownIt-Anchor" href="#132"></a> 132</h2>
+<h3 id="123-2"><a class="markdownIt-Anchor" href="#123-2"></a> 123</h3>
+<h4 id="123-3"><a class="markdownIt-Anchor" href="#123-3"></a> 123</h4>
+<h5 id="123-4"><a class="markdownIt-Anchor" href="#123-4"></a> 123</h5>
+<h1 id="背景介绍"><a class="markdownIt-Anchor" href="#背景介绍"></a> 背景介绍</h1>
+<p>三维：GPA 3.28 (最后三个学期3.61) TOEFL 108(S25) GRE 323(153+170+3.5)</p>
+<h1 id="申请-timeline"><a class="markdownIt-Anchor" href="#申请-timeline"></a> 申请 Timeline</h1>
+<p><img src="https://markdown.diobrando0825.cn/2021-06-08-Screen%20Shot%202021-06-08%20at%203.35.24%20PM.png" alt="" /></p>
+<h1 id="具体的申请准备"><a class="markdownIt-Anchor" href="#具体的申请准备"></a> 具体的申请准备：</h1>
+<h2 id="三维"><a class="markdownIt-Anchor" href="#三维"></a> 三维</h2>
+<h2 id="科研实习"><a class="markdownIt-Anchor" href="#科研实习"></a> 科研/实习</h2>
+<h1 id="软硬实力对于申请的影响和作用"><a class="markdownIt-Anchor" href="#软硬实力对于申请的影响和作用"></a> 软硬实力对于申请的影响和作用</h1>
+<h1 id="给学习学妹们的建议"><a class="markdownIt-Anchor" href="#给学习学妹们的建议"></a> 给学习学妹们的建议</h1>
 ]]></content>
-      <tags>
-        <tag>类型断言</tag>
-        <tag>Golang</tag>
-        <tag>Interface</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记录</title>
-    <url>/posts/2193376716/</url>
-    <content><![CDATA[<blockquote>
-<p>A - Companies</p>
-</blockquote>
-<ul>
-<li>Adobe</li>
-<li>Akuna <a href="https://akunacapital.com/job-details?gh_jid=3170386">SDE</a></li>
-<li>Amazon <a href="https://www.amazon.jobs/en/jobs/1557929/software-development-engineer-internship-summer-2022-us">SDE</a></li>
-<li>Apple</li>
-<li>Autodesk</li>
-</ul>
-<span id="more"></span>
-<blockquote>
-<p>B - Companies</p>
-</blockquote>
-<ul>
-<li>Bank of America</li>
-<li>Blackrock</li>
-<li>Bloomberg</li>
-</ul>
-<blockquote>
-<p>C - Companies</p>
-</blockquote>
-<ul>
-<li>Cadence</li>
-<li>Capital One</li>
-<li>Chase</li>
-<li>Cisco</li>
-<li>Citadel</li>
-<li>Citrix</li>
-</ul>
-<blockquote>
-<p>D - Companies</p>
-</blockquote>
-<ul>
-<li>Databricks</li>
-<li>Dell</li>
-<li>Dropbox</li>
-</ul>
-<blockquote>
-<p>F - Companies</p>
-</blockquote>
-<ul>
-<li>Facebook</li>
-</ul>
-<blockquote>
-<p>G - Companies</p>
-</blockquote>
-<ul>
-<li>Goldman Sachs</li>
-<li>Google</li>
-</ul>
-<blockquote>
-<p>I - Companies</p>
-</blockquote>
-<ul>
-<li>IBM</li>
-<li>Indeed</li>
-<li>Intel</li>
-<li>Intuit</li>
-</ul>
-<blockquote>
-<p>J - Companies</p>
-</blockquote>
-<ul>
-<li>JP Morgan</li>
-</ul>
-<blockquote>
-<p>K - Companies</p>
-</blockquote>
-<ul>
-<li>KPMG</li>
-</ul>
-<blockquote>
-<p>L - Companies</p>
-</blockquote>
-<ul>
-<li>Lime</li>
-<li>LinkedIn</li>
-<li>Lyft</li>
-</ul>
-<blockquote>
-<p>M - Companies</p>
-</blockquote>
-<ul>
-<li>Microsoft</li>
-<li>Morgan Stanley</li>
-</ul>
-<blockquote>
-<p>P - Companies</p>
-</blockquote>
-<ul>
-<li>Paypal</li>
-</ul>
-<blockquote>
-<p>Q - Companies</p>
-</blockquote>
-<ul>
-<li>Qualtrics</li>
-<li>Qualcomm</li>
-</ul>
-<blockquote>
-<p>R - Companies</p>
-</blockquote>
-<ul>
-<li>Robinhood</li>
-<li>Red Hat</li>
-</ul>
-<blockquote>
-<p>S - Companies</p>
-</blockquote>
-<ul>
-<li>Salesforce <a href="https://salesforce.wd1.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Summer-2022-Intern---Software-Engineer_JR100559-1?source=JobBoard_Indeed">SDE Intern</a></li>
-<li>SAP</li>
-</ul>
-<blockquote>
-<p>T - Companies</p>
-</blockquote>
-<ul>
-<li>Tesla</li>
-<li>Tripadvisor</li>
-<li>Tusimple</li>
-<li>Two Sigma</li>
-<li>Twitter</li>
-</ul>
-<blockquote>
-<p>U - Companies</p>
-</blockquote>
-<ul>
-<li>Uber</li>
-</ul>
-<blockquote>
-<p>Y - Companies</p>
-</blockquote>
-<ul>
-<li>Yahoo</li>
-<li>Yelp</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>Intern</tag>
-      </tags>
   </entry>
   <entry>
     <title>如何在 go 服务中同时生成 gRPC 以及 RESTful 两种「api」</title>
@@ -266,6 +110,88 @@
         <tag>Golang</tag>
         <tag>gRPC</tag>
         <tag>ProtoBuf</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>golang 中使用 interface 实现同一个函数返回不同类型的结果</title>
+    <url>/posts/43661/</url>
+    <content><![CDATA[<figure class="highlight golang"><table><tr><td class="code"><pre><span class="line"><span class="number">123</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>Golang</tag>
+        <tag>类型断言</tag>
+        <tag>Interface</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记录</title>
+    <url>/posts/2193376716/</url>
+    <content><![CDATA[<h3 id="2021626-投递"><a class="markdownIt-Anchor" href="#2021626-投递"></a> 2021.6.26 投递</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">ID</th>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Title</th>
+<th style="text-align:center">Date</th>
+<th style="text-align:center">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">Hudson River Trading</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.6.26</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">Blackstone</td>
+<td style="text-align:center">DS Intern</td>
+<td style="text-align:center">2021.6.26</td>
+<td style="text-align:center">pymetrics test to do</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">Optiver</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.6.26</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">SIG</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.6.26</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:center">Five Rings</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.6.26</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:center">Toyota Connected</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.6.26</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td style="text-align:center">Arrow Street</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.6.26</td>
+<td style="text-align:center">No Response</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <tags>
+        <tag>Intern</tag>
       </tags>
   </entry>
 </search>

@@ -75,17 +75,6 @@
       </tags>
   </entry>
   <entry>
-    <title>golang 中使用 interface 实现同一个函数返回不同类型的结果</title>
-    <url>/posts/43661/</url>
-    <content><![CDATA[<figure class="highlight golang"><table><tr><td class="code"><pre><span class="line"><span class="number">123</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>类型断言</tag>
-        <tag>Golang</tag>
-        <tag>Interface</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何在 go 服务中同时生成 gRPC 以及 RESTful 两种「api」</title>
     <url>/posts/3675602205/</url>
     <content><![CDATA[<h2 id="grpc-介绍"><a class="markdownIt-Anchor" href="#grpc-介绍"></a> gRPC 介绍</h2>
@@ -124,6 +113,17 @@
       </tags>
   </entry>
   <entry>
+    <title>golang 中使用 interface 实现同一个函数返回不同类型的结果</title>
+    <url>/posts/43661/</url>
+    <content><![CDATA[<figure class="highlight golang"><table><tr><td class="code"><pre><span class="line"><span class="number">123</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>Golang</tag>
+        <tag>类型断言</tag>
+        <tag>Interface</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>记录</title>
     <url>/posts/2193376716/</url>
     <content><![CDATA[<h3 id="2021626-投递"><a class="markdownIt-Anchor" href="#2021626-投递"></a> 2021.6.26 投递</h3>
@@ -150,7 +150,7 @@
 <td style="text-align:center">Blackstone</td>
 <td style="text-align:center">DS Intern</td>
 <td style="text-align:center">2021.6.26</td>
-<td style="text-align:center">pymetrics test to do</td>
+<td style="text-align:center">pymetrics test done</td>
 </tr>
 <tr>
 <td style="text-align:center">3</td>
@@ -174,11 +174,11 @@
 <td style="text-align:center">No Response</td>
 </tr>
 <tr>
-<td style="text-align:center">6</td>
-<td style="text-align:center">Toyota Connected</td>
-<td style="text-align:center">SDE Intern</td>
-<td style="text-align:center">2021.6.26</td>
-<td style="text-align:center">No Response</td>
+<td style="text-align:center"><s>6</s></td>
+<td style="text-align:center"><s>Toyota Connected</s></td>
+<td style="text-align:center"><s>SDE Intern</s></td>
+<td style="text-align:center"><s>2021.6.26</s></td>
+<td style="text-align:center"><s>No Response</s></td>
 </tr>
 <tr>
 <td style="text-align:center">7</td>
@@ -192,6 +192,118 @@
 <td style="text-align:center"><strong>Amazon</strong></td>
 <td style="text-align:center">SDE Intern</td>
 <td style="text-align:center">2021.8.2</td>
+<td style="text-align:center">8.6(OA1) 8.9(OA2)</td>
+</tr>
+<tr>
+<td style="text-align:center">9</td>
+<td style="text-align:center"><a href="https://salesforce.wd1.myworkdayjobs.com/en-US/Futureforce_Internships/userHome"><strong>Salesforce/Tableau</strong></a></td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.8.8</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">10</td>
+<td style="text-align:center">Stripe</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.8.8</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">11</td>
+<td style="text-align:center">IBM</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.8.8</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">12</td>
+<td style="text-align:center">Duolingo</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.8.8</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center">Robinhood</td>
+<td style="text-align:center">Backend/Web Engineer</td>
+<td style="text-align:center">2021.8.8</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center">Two Sigma</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.8.8</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center"><s>15</s></td>
+<td style="text-align:center"><s>ane Street</s></td>
+<td style="text-align:center"><s>SDE Intern</s></td>
+<td style="text-align:center"><s>2021.8.8</s></td>
+<td style="text-align:center"><s>rejected</s></td>
+</tr>
+<tr>
+<td style="text-align:center">16</td>
+<td style="text-align:center"><strong>Apple</strong></td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.8.10</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">17</td>
+<td style="text-align:center">Convoy</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.8.11</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">18</td>
+<td style="text-align:center">Benchling</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.8.11</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">19</td>
+<td style="text-align:center">PDT-Partners</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.8.11</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">20</td>
+<td style="text-align:center">Dropbox</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.8.11</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">21</td>
+<td style="text-align:center">WorldQuant</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.8.11</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">22</td>
+<td style="text-align:center">Wrike</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.8.11</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">23</td>
+<td style="text-align:center">Quora</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.8.11</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">24</td>
+<td style="text-align:center">SAP</td>
+<td style="text-align:center">SDE Intern</td>
+<td style="text-align:center">2021.8.11</td>
 <td style="text-align:center">No Response</td>
 </tr>
 </tbody>

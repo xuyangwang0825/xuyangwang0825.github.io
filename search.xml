@@ -209,11 +209,11 @@
 <td style="text-align:center">No Response</td>
 </tr>
 <tr>
-<td style="text-align:center">11</td>
-<td style="text-align:center">IBM</td>
-<td style="text-align:center">SDE Intern</td>
-<td style="text-align:center">2021.8.8</td>
-<td style="text-align:center">No Response</td>
+<td style="text-align:center"><s>11</s></td>
+<td style="text-align:center"><s>IBM</s></td>
+<td style="text-align:center"><s>SDE Intern</s></td>
+<td style="text-align:center"><s>2021.8.8</s></td>
+<td style="text-align:center"><s>Rejected</s></td>
 </tr>
 <tr>
 <td style="text-align:center">12</td>
@@ -514,6 +514,13 @@
 <td style="text-align:center">Roblox</td>
 <td style="text-align:center">SDE Intern</td>
 <td style="text-align:center">2021.8.18</td>
+<td style="text-align:center">No Response</td>
+</tr>
+<tr>
+<td style="text-align:center">55</td>
+<td style="text-align:center">IBM</td>
+<td style="text-align:center">Cognitive/Backend Developer Intern</td>
+<td style="text-align:center">2021.8.19</td>
 <td style="text-align:center">No Response</td>
 </tr>
 </tbody>

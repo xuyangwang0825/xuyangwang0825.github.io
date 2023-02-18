@@ -37,9 +37,9 @@
     <category term="留学" scheme="https://xuyangwang0825.github.io/categories/%E7%95%99%E5%AD%A6/"/>
     
     
-    <category term="Intern" scheme="https://xuyangwang0825.github.io/tags/Intern/"/>
-    
     <category term="留学" scheme="https://xuyangwang0825.github.io/tags/%E7%95%99%E5%AD%A6/"/>
+    
+    <category term="Intern" scheme="https://xuyangwang0825.github.io/tags/Intern/"/>
     
   </entry>
   
@@ -65,9 +65,9 @@
     <category term="留学" scheme="https://xuyangwang0825.github.io/categories/%E7%95%99%E5%AD%A6/"/>
     
     
-    <category term="留学" scheme="https://xuyangwang0825.github.io/tags/%E7%95%99%E5%AD%A6/"/>
-    
     <category term="申请经验" scheme="https://xuyangwang0825.github.io/tags/%E7%94%B3%E8%AF%B7%E7%BB%8F%E9%AA%8C/"/>
+    
+    <category term="留学" scheme="https://xuyangwang0825.github.io/tags/%E7%95%99%E5%AD%A6/"/>
     
   </entry>
   
@@ -99,33 +99,6 @@
     <category term="gRPC" scheme="https://xuyangwang0825.github.io/tags/gRPC/"/>
     
     <category term="ProtoBuf" scheme="https://xuyangwang0825.github.io/tags/ProtoBuf/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python中Mysqldb传递参数的坑</title>
-    <link href="https://xuyangwang0825.github.io/posts/3427391172/"/>
-    <id>https://xuyangwang0825.github.io/posts/3427391172/</id>
-    <published>2021-05-24T08:40:18.615Z</published>
-    <updated>2023-02-18T07:04:25.049Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天在实现业务逻辑的过程中遇到了一些Mysqldb传递参数的坑，在此记录一下。</p><h3 id="不传递参数"><a class="markdownIt-Anchor" href="#不传递参数"></a> 不传递参数</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><span id="more"></span><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="传递参数"><a class="markdownIt-Anchor" href="#传递参数"></a> 传递参数</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h4 id="传递单个参数"><a class="markdownIt-Anchor" href="#传递单个参数"></a> 传递单个参数</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="传递多个参数"><a class="markdownIt-Anchor" href="#传递多个参数"></a> 传递多个参数</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h3 id="防止sql注入的方法"><a class="markdownIt-Anchor" href="#防止sql注入的方法"></a> 防止SQL注入的方法</h3>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;今天在实现业务逻辑的过程中遇到了一些Mysqldb传递参数的坑，在此记录一下。&lt;/p&gt;
-&lt;h3 id=&quot;不传递参数&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#不传递参数&quot;&gt;&lt;/a&gt; 不传递参数&lt;/h3&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="技术" scheme="https://xuyangwang0825.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="MySQL" scheme="https://xuyangwang0825.github.io/tags/MySQL/"/>
-    
-    <category term="Python" scheme="https://xuyangwang0825.github.io/tags/Python/"/>
-    
-    <category term="坑" scheme="https://xuyangwang0825.github.io/tags/%E5%9D%91/"/>
     
   </entry>
   

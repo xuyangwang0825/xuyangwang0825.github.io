@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>21FALL英美混申经验</title>
+    <url>/posts/1907751636/</url>
+    <content><![CDATA[<h1 id="背景介绍"><a class="markdownIt-Anchor" href="#背景介绍"></a> 背景介绍</h1>
+<p>三维：GPA 3.28 (最后三个学期3.61) TOEFL 108(S25) GRE 323(153+170+3.5)</p>
+<h1 id="申请-timeline"><a class="markdownIt-Anchor" href="#申请-timeline"></a> 申请 Timeline</h1>
+<p><img src="https://markdown.diobrando0825.cn/2021-06-08-Screen%20Shot%202021-06-08%20at%203.35.24%20PM.png" alt="" /></p>
+<h1 id="具体的申请准备"><a class="markdownIt-Anchor" href="#具体的申请准备"></a> 具体的申请准备：</h1>
+<h2 id="三维"><a class="markdownIt-Anchor" href="#三维"></a> 三维</h2>
+<h2 id="科研实习"><a class="markdownIt-Anchor" href="#科研实习"></a> 科研/实习</h2>
+<h1 id="软硬实力对于申请的影响和作用"><a class="markdownIt-Anchor" href="#软硬实力对于申请的影响和作用"></a> 软硬实力对于申请的影响和作用</h1>
+<h1 id="给学习学妹们的建议"><a class="markdownIt-Anchor" href="#给学习学妹们的建议"></a> 给学习学妹们的建议</h1>
+]]></content>
+      <categories>
+        <category>留学</category>
+      </categories>
+      <tags>
+        <tag>申请经验</tag>
+        <tag>留学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>21秋招记录</title>
     <url>/posts/2193376716/</url>
     <content><![CDATA[<h3 id="202112-update"><a class="markdownIt-Anchor" href="#202112-update"></a> 2021.12 Update</h3>
@@ -642,57 +663,8 @@
         <category>留学</category>
       </categories>
       <tags>
+        <tag>留学</tag>
         <tag>Intern</tag>
-        <tag>留学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>21FALL英美混申经验</title>
-    <url>/posts/1907751636/</url>
-    <content><![CDATA[<h1 id="背景介绍"><a class="markdownIt-Anchor" href="#背景介绍"></a> 背景介绍</h1>
-<p>三维：GPA 3.28 (最后三个学期3.61) TOEFL 108(S25) GRE 323(153+170+3.5)</p>
-<h1 id="申请-timeline"><a class="markdownIt-Anchor" href="#申请-timeline"></a> 申请 Timeline</h1>
-<p><img src="https://markdown.diobrando0825.cn/2021-06-08-Screen%20Shot%202021-06-08%20at%203.35.24%20PM.png" alt="" /></p>
-<h1 id="具体的申请准备"><a class="markdownIt-Anchor" href="#具体的申请准备"></a> 具体的申请准备：</h1>
-<h2 id="三维"><a class="markdownIt-Anchor" href="#三维"></a> 三维</h2>
-<h2 id="科研实习"><a class="markdownIt-Anchor" href="#科研实习"></a> 科研/实习</h2>
-<h1 id="软硬实力对于申请的影响和作用"><a class="markdownIt-Anchor" href="#软硬实力对于申请的影响和作用"></a> 软硬实力对于申请的影响和作用</h1>
-<h1 id="给学习学妹们的建议"><a class="markdownIt-Anchor" href="#给学习学妹们的建议"></a> 给学习学妹们的建议</h1>
-]]></content>
-      <categories>
-        <category>留学</category>
-      </categories>
-      <tags>
-        <tag>留学</tag>
-        <tag>申请经验</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python中Mysqldb传递参数的坑</title>
-    <url>/posts/3427391172/</url>
-    <content><![CDATA[<p>今天在实现业务逻辑的过程中遇到了一些Mysqldb传递参数的坑，在此记录一下。</p>
-<h3 id="不传递参数"><a class="markdownIt-Anchor" href="#不传递参数"></a> 不传递参数</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="传递参数"><a class="markdownIt-Anchor" href="#传递参数"></a> 传递参数</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h4 id="传递单个参数"><a class="markdownIt-Anchor" href="#传递单个参数"></a> 传递单个参数</h4>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="传递多个参数"><a class="markdownIt-Anchor" href="#传递多个参数"></a> 传递多个参数</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h3 id="防止sql注入的方法"><a class="markdownIt-Anchor" href="#防止sql注入的方法"></a> 防止SQL注入的方法</h3>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>MySQL</tag>
-        <tag>Python</tag>
-        <tag>坑</tag>
       </tags>
   </entry>
   <entry>

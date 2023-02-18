@@ -13,6 +13,9 @@
 <h1 id="软硬实力对于申请的影响和作用"><a class="markdownIt-Anchor" href="#软硬实力对于申请的影响和作用"></a> 软硬实力对于申请的影响和作用</h1>
 <h1 id="给学习学妹们的建议"><a class="markdownIt-Anchor" href="#给学习学妹们的建议"></a> 给学习学妹们的建议</h1>
 ]]></content>
+      <categories>
+        <category>留学</category>
+      </categories>
       <tags>
         <tag>申请经验</tag>
         <tag>留学</tag>
@@ -656,6 +659,9 @@
 </tbody>
 </table>
 ]]></content>
+      <categories>
+        <category>留学</category>
+      </categories>
       <tags>
         <tag>留学</tag>
         <tag>Intern</tag>
@@ -681,7 +687,7 @@
 <h3 id="防止sql注入的方法"><a class="markdownIt-Anchor" href="#防止sql注入的方法"></a> 防止SQL注入的方法</h3>
 ]]></content>
       <categories>
-        <category>数据库</category>
+        <category>技术</category>
       </categories>
       <tags>
         <tag>MySQL</tag>
@@ -721,6 +727,9 @@
 <li><a href="https://www.cnblogs.com/andyidea/archive/2017/03/10/6529900.html">grpc转换为http协议对外提供服务</a></li>
 </ul>
 ]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
       <tags>
         <tag>Golang</tag>
         <tag>gRPC</tag>

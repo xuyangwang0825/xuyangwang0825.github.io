@@ -2,7 +2,7 @@ const ap = new APlayer({
     container: document.getElementById('aplayer'),
     listFolded: false,
     listMaxHeight: 90,
-    autoplay: false,
+    autoplay: true,
     audio: [
         {
             name: '拝啓、少年よ',

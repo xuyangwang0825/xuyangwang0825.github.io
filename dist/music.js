@@ -5,13 +5,6 @@ const ap = new APlayer({
     autoplay: true,
     audio: [
         {
-            name: '拝啓、少年よ',
-            artist: 'Hump Back',
-            url: 'https://markdown.diobrando0825.cn/Hump_Back_-_%28mp3.pm%29.mp3',
-            cover: '/images/Hump.jpg',
-            theme: '#8A2BE2',
-        },
-        {
             name: 'golden hour',
             artist: 'JVKE',
             url: 'https://markdown.diobrando0825.cn/JVKE%20-%20golden%20hour.mp3',
@@ -23,6 +16,13 @@ const ap = new APlayer({
             artist: 'Polyphia',
             url: 'https://markdown.diobrando0825.cn/Polyphia%20-%20Playing%20God.mp3',
             cover: 'https://i1.sndcdn.com/artworks-b47cUUA1beh4-0-t500x500.jpg',
+            theme: '#8A2BE2',
+        },
+        {
+            name: '拝啓、少年よ',
+            artist: 'Hump Back',
+            url: 'https://markdown.diobrando0825.cn/Hump_Back_-_%28mp3.pm%29.mp3',
+            cover: '/images/Hump.jpg',
             theme: '#8A2BE2',
         },
     ]

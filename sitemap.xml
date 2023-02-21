@@ -74,6 +74,20 @@
   </url>
   
   <url>
+    <loc>https://xuyangwang0825.github.io/tags/%E7%94%B3%E8%AF%B7%E7%BB%8F%E9%AA%8C/</loc>
+    <lastmod>2023-02-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuyangwang0825.github.io/tags/Docker/</loc>
+    <lastmod>2023-02-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xuyangwang0825.github.io/tags/K8s/</loc>
     <lastmod>2023-02-21</lastmod>
     <changefreq>daily</changefreq>
@@ -82,13 +96,6 @@
   
   <url>
     <loc>https://xuyangwang0825.github.io/tags/Cloud-Native/</loc>
-    <lastmod>2023-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuyangwang0825.github.io/tags/%E7%94%B3%E8%AF%B7%E7%BB%8F%E9%AA%8C/</loc>
     <lastmod>2023-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -110,13 +117,6 @@
   
   <url>
     <loc>https://xuyangwang0825.github.io/tags/ProtoBuf/</loc>
-    <lastmod>2023-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuyangwang0825.github.io/tags/Docker/</loc>
     <lastmod>2023-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

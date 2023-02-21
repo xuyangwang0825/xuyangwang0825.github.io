@@ -5,6 +5,13 @@ const ap = new APlayer({
     autoplay: true,
     audio: [
         {
+            name: '咖啡+交換餘生',
+            artist: '林俊杰',
+            url: 'https://markdown.diobrando0825.cn/2023-02-21-%E6%9E%97%E4%BF%8A%E6%9D%B0-%E5%92%96%E5%95%A1-%E4%BA%A4%E6%8D%A2%E4%BD%99%E7%94%9F.mp3',
+            cover: 'https://markdown.diobrando0825.cn/2023-02-21-084048.jpg',
+            theme: '#8A2BE2',
+        },
+        {
             name: 'golden hour',
             artist: 'JVKE',
             url: 'https://markdown.diobrando0825.cn/JVKE%20-%20golden%20hour.mp3',

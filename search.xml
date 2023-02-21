@@ -39,6 +39,177 @@
       </tags>
   </entry>
   <entry>
+    <title>Docker and k8s basics</title>
+    <url>/posts/817167632/</url>
+    <content><![CDATA[<p><strong>TL;DR:</strong> This article is about basics of Docker &amp; K8s.</p>
+<h1 id="docker"><a class="markdownIt-Anchor" href="#docker"></a> Docker</h1>
+<blockquote>
+<p>Use containers to <strong>build</strong>, <strong>share</strong> and <strong>run</strong> your appplications</p>
+</blockquote>
+<span id="more"></span>
+<h2 id="main-concepts"><a class="markdownIt-Anchor" href="#main-concepts"></a> Main concepts</h2>
+<ul>
+<li>
+<p>Container: A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.</p>
+</li>
+<li>
+<p>Image: A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.</p>
+</li>
+</ul>
+<p>✨ <strong>images become containers when they run on <a href="https://www.docker.com/products/container-runtime">Docker Engine</a>.</strong></p>
+<h2 id="advantages"><a class="markdownIt-Anchor" href="#advantages"></a> Advantages</h2>
+<ul>
+<li><strong>Standard:</strong> Docker created the industry standard for containers, so they could be portable anywhere.</li>
+<li><strong>Lightweight:</strong> Containers share the machine’s OS system kernel and therefore do not require an OS per application, driving higher server efficiencies and reducing server and licensing costs.</li>
+<li><strong>Secure:</strong> Applications are safer in containers and Docker provides the strongest default isolation capabilities in the industry.</li>
+</ul>
+<h1 id="kubernetes"><a class="markdownIt-Anchor" href="#kubernetes"></a> Kubernetes</h1>
+<blockquote>
+<p><a href="https://kubernetes.io/docs/concepts/overview/">Kubernetes</a>, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.</p>
+</blockquote>
+<h2 id="features"><a class="markdownIt-Anchor" href="#features"></a> Features</h2>
+<ul>
+<li>
+<p><strong>Automated rollouts and rollbacks</strong>: k8s progressively rolls out changes and will monitor the application health. If something wrong, k8s will rollback automatically.</p>
+</li>
+<li>
+<p><strong>Service discovery and load balancing</strong>: Kubernetes gives Pods their own IP addresses and a single DNS name for a set of Pods, and can load-balance across them.</p>
+</li>
+<li>
+<p><strong>Storage orchestration</strong>: Automatically mount the storage system(local storage or public cloud provider).</p>
+</li>
+<li>
+<p><strong>Self-healing</strong>: Restarts containers that fail, replaces and reschedules containers when nodes die.</p>
+</li>
+<li>
+<p><strong>Secret and configuration management</strong>: Deploy and update secrets and application configuration without rebuilding your image and without exposing secrets in your stack configuration.</p>
+</li>
+<li>
+<p><strong>Automatic bin packing</strong></p>
+<p>Automatically places containers based on their resource requirements and other constraints.</p>
+</li>
+<li>
+<p><strong>Batch execution</strong><br />
+In addition to services, Kubernetes can manage your batch and CI workloads, replacing containers that fail, if desired.</p>
+</li>
+<li>
+<p><strong>Horizontal scaling</strong></p>
+<p>Scale your application up and down with a simple command, with a UI, or automatically based on CPU usage.</p>
+</li>
+<li>
+<p><strong>IPv4/IPv6 dual-stack</strong></p>
+<p>Allocation of IPv4 and IPv6 addresses to Pods and Services.</p>
+</li>
+<li>
+<p><strong>Designed for extensibility</strong></p>
+<p>Add features to your Kubernetes cluster without changing upstream source code.</p>
+</li>
+</ul>
+<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
+<ul>
+<li>
+<p><a href="https://www.docker.com/resources/what-container/">What is container?</a></p>
+</li>
+<li>
+<p><a href="https://kubernetes.io/">K8s</a></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Docker</tag>
+        <tag>K8s</tag>
+        <tag>Cloud Native</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Setup local kubernetes enviroment</title>
+    <url>/posts/1975851450/</url>
+    <content><![CDATA[<h1 id="setup-local-kubernetes-environment"><a class="markdownIt-Anchor" href="#setup-local-kubernetes-environment"></a> Setup local kubernetes environment</h1>
+<blockquote>
+<p>This article is about setting up local k8s environment for testing and learning k8s</p>
+</blockquote>
+<p><img src="https://markdown.diobrando0825.cn/2023-02-21-Screenshot%202023-02-21%20at%2012.18.41%20AM.png" alt="" /></p>
+<span id="more"></span>
+<h2 id="some-prerequisites"><a class="markdownIt-Anchor" href="#some-prerequisites"></a> Some prerequisites</h2>
+<ul>
+<li>Homebrew</li>
+<li>Docker</li>
+</ul>
+<h2 id="install-minikube"><a class="markdownIt-Anchor" href="#install-minikube"></a> Install minikube</h2>
+<blockquote>
+<p><a href="https://minikube.sigs.k8s.io/docs/">minikube</a> is local Kubernetes, focusing on making it easy to learn and develop for Kubernetes.</p>
+</blockquote>
+<ul>
+<li>Using homebrew to install minikube</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install minikube</span><br></pre></td></tr></table></figure>
+<h2 id="start-minikube"><a class="markdownIt-Anchor" href="#start-minikube"></a> Start minikube</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># By default the minikube will use docker to do the virtualization part</span></span><br><span class="line"><span class="comment"># But you can also use other virtualization drivers</span></span><br><span class="line"><span class="comment"># e.g. Hyperkit, VirtualBox https://minikube.sigs.k8s.io/docs/drivers/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># start command</span></span><br><span class="line">minikube start</span><br><span class="line"></span><br><span class="line"><span class="comment"># you can also start in debug mode so that you can see more logs in the console</span></span><br><span class="line"><span class="comment"># minikube start --v=7 --alsologtostderr</span></span><br></pre></td></tr></table></figure>
+<h2 id="check-if-the-minikube-environment-is-created-successfully"><a class="markdownIt-Anchor" href="#check-if-the-minikube-environment-is-created-successfully"></a> Check if the minikube environment is created successfully</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># check the status of the minikube</span></span><br><span class="line">❯ minikube status</span><br><span class="line">minikube</span><br><span class="line"><span class="built_in">type</span>: Control Plane</span><br><span class="line">host: Running</span><br><span class="line">kubelet: Running</span><br><span class="line">apiserver: Running</span><br><span class="line">kubeconfig: Configured</span><br><span class="line"></span><br><span class="line"><span class="comment"># check the nodes</span></span><br><span class="line">❯ kubectl get nodes</span><br><span class="line">NAME       STATUS   ROLES           AGE   VERSION</span><br><span class="line">minikube   Ready    control-plane   15s   v1.26.1</span><br></pre></td></tr></table></figure>
+<h2 id="other-easy-access-online-environments"><a class="markdownIt-Anchor" href="#other-easy-access-online-environments"></a> Other easy access online environments</h2>
+<ul>
+<li><a href="https://killercoda.com/">killercoda</a></li>
+</ul>
+<p>…</p>
+<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
+<ul>
+<li><a href="https://minikube.sigs.k8s.io/docs/">minikube docs</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>K8s</tag>
+        <tag>Cloud Native</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何在 go 服务中同时生成 gRPC 以及 RESTful 两种「api」</title>
+    <url>/posts/3675602205/</url>
+    <content><![CDATA[<h2 id="grpc-介绍"><a class="markdownIt-Anchor" href="#grpc-介绍"></a> gRPC 介绍</h2>
+<p>gRPC 是一种广泛应用的 RPC 框架，其在性能和兼容性上都有一定的提升：</p>
+<ul>
+<li>使用 Protobuf 进行数据编码，实现了很高的数据压缩率</li>
+<li>使用 HTTP 2.0 弥补了 HTTP 1.1 的不足，例如多路复用的机制让连接数量减少</li>
+</ul>
+<p>但是在实际的应用过程中，我们可能不仅需要 gRPC 完成内部各微服务之间的交互，很多时候也需要对外仍然使用 RESTful 类型的 api。同时实现两种形式的 api 接口是一种解决方案，但这样不仅降低开发效率也增加了调试难度。gRPC-Gateway 很好地解决的这个问题，其实现方法如下图，gRPC-Gateway 以网关的形式将 RESTful 的 api 转化为 gRPC 的形式：</p>
+<span id="more"></span>
+<p><img src="https://markdown.diobrando0825.cn/2021-06-04-architecture_introduction_diagram.svg" alt="" /></p>
+<p>本文就直接略去 gRPC 以及 gRPC-Gateway 的安装步骤以及普通的使用方式介绍，直接介绍如何将 gRPC-Gateway 应用于普通方式中。下面的 proto 文件中✅ 部分为使用 gRPC-Gateway 需要增加的部分。</p>
+<h2 id="编写-proto-文件"><a class="markdownIt-Anchor" href="#编写-proto-文件"></a> 编写 proto 文件</h2>
+<figure class="highlight protobuf"><table><tr><td class="code"><pre><span class="line"><span class="comment">// tmp.proto</span></span><br><span class="line"><span class="comment">// 使用 proto2/3 语法</span></span><br><span class="line">syntax = <span class="string">&quot;proto3&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// ✅ 引入 google api 官方扩展包</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;google/api/annotations.proto&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 包/作用域/name space</span></span><br><span class="line"><span class="keyword">package</span> tmp</span><br><span class="line"></span><br><span class="line"><span class="comment">// option go_package = &quot;path;name&quot;</span></span><br><span class="line"><span class="comment">// path 表示生成的 go 文件存放的位置，name 表示生成的 go 文件所属的包</span></span><br><span class="line"><span class="keyword">option</span> go_package = <span class="string">&quot;.;tmp&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//--------Message--------</span></span><br><span class="line"><span class="class"><span class="keyword">message</span> <span class="title">TmpReq</span> </span>&#123;</span><br><span class="line">	<span class="built_in">int64</span> field1  = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">string</span> field2 = <span class="number">2</span>;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">message</span> <span class="title">TmpResp</span> </span>&#123;</span><br><span class="line">	<span class="built_in">int64</span> field1  = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">string</span> field2 = <span class="number">2</span>;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//--------Service--------</span></span><br><span class="line"><span class="class"><span class="keyword">service</span> <span class="title">TmpService</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">rpc</span> TmpFunc(TmpReq) <span class="keyword">returns</span> (TmpResp) </span>&#123; </span><br><span class="line">	<span class="comment">// ✅ google.api.http</span></span><br><span class="line">	<span class="keyword">option</span> (google.api.http) = &#123;</span><br><span class="line">		post: <span class="string">&quot;/tmp_func&quot;</span></span><br><span class="line">		body: *</span><br><span class="line">	&#125;,&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="生成文件"><a class="markdownIt-Anchor" href="#生成文件"></a> 生成文件</h2>
+<h3 id="生成-tmppbgo-grpc"><a class="markdownIt-Anchor" href="#生成-tmppbgo-grpc"></a> 生成 tmp.pb.go (gRPC)</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --go_out=plugins=grpc:. tmp.proto</span><br></pre></td></tr></table></figure>
+<h3 id="生成-tmppbgwgo-http"><a class="markdownIt-Anchor" href="#生成-tmppbgwgo-http"></a> 生成 tmp.pb.gw.go (http) ✅</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --grpc-gateway_out=logtostderr=<span class="literal">true</span>:. tmp.proto </span><br></pre></td></tr></table></figure>
+<h3 id="生成-swagger"><a class="markdownIt-Anchor" href="#生成-swagger"></a> 生成 swagger</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --go_out=plugins=grpc:. tmp.proto</span><br></pre></td></tr></table></figure>
+<h2 id="启动服务"><a class="markdownIt-Anchor" href="#启动服务"></a> 启动服务</h2>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">&quot;flag&quot;</span></span><br><span class="line">	<span class="string">&quot;net/http&quot;</span></span><br><span class="line"></span><br><span class="line">	<span class="string">&quot;github.com/golang/glog&quot;</span></span><br><span class="line">	<span class="string">&quot;github.com/grpc-ecosystem/grpc-gateway/runtime&quot;</span></span><br><span class="line">	<span class="string">&quot;golang.org/x/net/context&quot;</span></span><br><span class="line">	<span class="string">&quot;google.golang.org/grpc&quot;</span></span><br><span class="line"></span><br><span class="line">	gw <span class="string">&quot;grpc-helloworld-gateway/helloworld&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> (</span><br><span class="line">	echoEndpoint = flag.String(<span class="string">&quot;echo_endpoint&quot;</span>, <span class="string">&quot;localhost:50051&quot;</span>, <span class="string">&quot;endpoint of YourService&quot;</span>)</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">run</span><span class="params">()</span> <span class="title">error</span></span> &#123;</span><br><span class="line">	ctx := context.Background()</span><br><span class="line">	ctx, cancel := context.WithCancel(ctx)</span><br><span class="line">	<span class="keyword">defer</span> cancel()</span><br><span class="line"></span><br><span class="line">	mux := runtime.NewServeMux()</span><br><span class="line">	opts := []grpc.DialOption&#123;grpc.WithInsecure()&#125;</span><br><span class="line">	err := gw.RegisterGreeterHandlerFromEndpoint(ctx, mux, *echoEndpoint, opts)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> err</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> http.ListenAndServe(<span class="string">&quot;:8080&quot;</span>, mux)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	flag.Parse()</span><br><span class="line">	<span class="keyword">defer</span> glog.Flush()</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> err := run(); err != <span class="literal">nil</span> &#123;</span><br><span class="line">		glog.Fatal(err)</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="参考文献"><a class="markdownIt-Anchor" href="#参考文献"></a> 参考文献</h2>
+<ul>
+<li><a href="https://grpc.io/docs/what-is-grpc/introduction/">gRPC</a></li>
+<li><a href="https://github.com/grpc-ecosystem/grpc-gateway">gRPC-Gateway</a></li>
+<li><a href="https://developers.google.com/protocol-buffers">Protocal Buffers</a></li>
+<li><a href="https://www.cnblogs.com/andyidea/archive/2017/03/10/6529900.html">grpc转换为http协议对外提供服务</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Golang</tag>
+        <tag>gRPC</tag>
+        <tag>ProtoBuf</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>21秋招记录</title>
     <url>/posts/2193376716/</url>
     <content><![CDATA[<h3 id="202112-update"><a class="markdownIt-Anchor" href="#202112-update"></a> 2021.12 Update</h3>
@@ -683,177 +854,6 @@
       <tags>
         <tag>留学</tag>
         <tag>Intern</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Docker and k8s basics</title>
-    <url>/posts/817167632/</url>
-    <content><![CDATA[<p><strong>TL;DR:</strong> This article is about basics of Docker &amp; K8s.</p>
-<h1 id="docker"><a class="markdownIt-Anchor" href="#docker"></a> Docker</h1>
-<blockquote>
-<p>Use containers to <strong>build</strong>, <strong>share</strong> and <strong>run</strong> your appplications</p>
-</blockquote>
-<span id="more"></span>
-<h2 id="main-concepts"><a class="markdownIt-Anchor" href="#main-concepts"></a> Main concepts</h2>
-<ul>
-<li>
-<p>Container: A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.</p>
-</li>
-<li>
-<p>Image: A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.</p>
-</li>
-</ul>
-<p>✨ <strong>images become containers when they run on <a href="https://www.docker.com/products/container-runtime">Docker Engine</a>.</strong></p>
-<h2 id="advantages"><a class="markdownIt-Anchor" href="#advantages"></a> Advantages</h2>
-<ul>
-<li><strong>Standard:</strong> Docker created the industry standard for containers, so they could be portable anywhere.</li>
-<li><strong>Lightweight:</strong> Containers share the machine’s OS system kernel and therefore do not require an OS per application, driving higher server efficiencies and reducing server and licensing costs.</li>
-<li><strong>Secure:</strong> Applications are safer in containers and Docker provides the strongest default isolation capabilities in the industry.</li>
-</ul>
-<h1 id="kubernetes"><a class="markdownIt-Anchor" href="#kubernetes"></a> Kubernetes</h1>
-<blockquote>
-<p><a href="https://kubernetes.io/docs/concepts/overview/">Kubernetes</a>, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.</p>
-</blockquote>
-<h2 id="features"><a class="markdownIt-Anchor" href="#features"></a> Features</h2>
-<ul>
-<li>
-<p><strong>Automated rollouts and rollbacks</strong>: k8s progressively rolls out changes and will monitor the application health. If something wrong, k8s will rollback automatically.</p>
-</li>
-<li>
-<p><strong>Service discovery and load balancing</strong>: Kubernetes gives Pods their own IP addresses and a single DNS name for a set of Pods, and can load-balance across them.</p>
-</li>
-<li>
-<p><strong>Storage orchestration</strong>: Automatically mount the storage system(local storage or public cloud provider).</p>
-</li>
-<li>
-<p><strong>Self-healing</strong>: Restarts containers that fail, replaces and reschedules containers when nodes die.</p>
-</li>
-<li>
-<p><strong>Secret and configuration management</strong>: Deploy and update secrets and application configuration without rebuilding your image and without exposing secrets in your stack configuration.</p>
-</li>
-<li>
-<p><strong>Automatic bin packing</strong></p>
-<p>Automatically places containers based on their resource requirements and other constraints.</p>
-</li>
-<li>
-<p><strong>Batch execution</strong><br />
-In addition to services, Kubernetes can manage your batch and CI workloads, replacing containers that fail, if desired.</p>
-</li>
-<li>
-<p><strong>Horizontal scaling</strong></p>
-<p>Scale your application up and down with a simple command, with a UI, or automatically based on CPU usage.</p>
-</li>
-<li>
-<p><strong>IPv4/IPv6 dual-stack</strong></p>
-<p>Allocation of IPv4 and IPv6 addresses to Pods and Services.</p>
-</li>
-<li>
-<p><strong>Designed for extensibility</strong></p>
-<p>Add features to your Kubernetes cluster without changing upstream source code.</p>
-</li>
-</ul>
-<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
-<ul>
-<li>
-<p><a href="https://www.docker.com/resources/what-container/">What is container?</a></p>
-</li>
-<li>
-<p><a href="https://kubernetes.io/">K8s</a></p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Docker</tag>
-        <tag>K8s</tag>
-        <tag>Cloud Native</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Setup local kubernetes enviroment</title>
-    <url>/posts/1975851450/</url>
-    <content><![CDATA[<h1 id="setup-local-kubernetes-environment"><a class="markdownIt-Anchor" href="#setup-local-kubernetes-environment"></a> Setup local kubernetes environment</h1>
-<blockquote>
-<p>This article is about setting up local k8s environment for testing and learning k8s</p>
-</blockquote>
-<p><img src="https://markdown.diobrando0825.cn/2023-02-21-Screenshot%202023-02-21%20at%2012.18.41%20AM.png" alt="" /></p>
-<span id="more"></span>
-<h2 id="some-prerequisites"><a class="markdownIt-Anchor" href="#some-prerequisites"></a> Some prerequisites</h2>
-<ul>
-<li>Homebrew</li>
-<li>Docker</li>
-</ul>
-<h2 id="install-minikube"><a class="markdownIt-Anchor" href="#install-minikube"></a> Install minikube</h2>
-<blockquote>
-<p><a href="https://minikube.sigs.k8s.io/docs/">minikube</a> is local Kubernetes, focusing on making it easy to learn and develop for Kubernetes.</p>
-</blockquote>
-<ul>
-<li>Using homebrew to install minikube</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install minikube</span><br></pre></td></tr></table></figure>
-<h2 id="start-minikube"><a class="markdownIt-Anchor" href="#start-minikube"></a> Start minikube</h2>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># By default the minikube will use docker to do the virtualization part</span></span><br><span class="line"><span class="comment"># But you can also use other virtualization drivers</span></span><br><span class="line"><span class="comment"># e.g. Hyperkit, VirtualBox https://minikube.sigs.k8s.io/docs/drivers/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># start command</span></span><br><span class="line">minikube start</span><br><span class="line"></span><br><span class="line"><span class="comment"># you can also start in debug mode so that you can see more logs in the console</span></span><br><span class="line"><span class="comment"># minikube start --v=7 --alsologtostderr</span></span><br></pre></td></tr></table></figure>
-<h2 id="check-if-the-minikube-environment-is-created-successfully"><a class="markdownIt-Anchor" href="#check-if-the-minikube-environment-is-created-successfully"></a> Check if the minikube environment is created successfully</h2>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># check the status of the minikube</span></span><br><span class="line">❯ minikube status</span><br><span class="line">minikube</span><br><span class="line"><span class="built_in">type</span>: Control Plane</span><br><span class="line">host: Running</span><br><span class="line">kubelet: Running</span><br><span class="line">apiserver: Running</span><br><span class="line">kubeconfig: Configured</span><br><span class="line"></span><br><span class="line"><span class="comment"># check the nodes</span></span><br><span class="line">❯ kubectl get nodes</span><br><span class="line">NAME       STATUS   ROLES           AGE   VERSION</span><br><span class="line">minikube   Ready    control-plane   15s   v1.26.1</span><br></pre></td></tr></table></figure>
-<h2 id="other-easy-access-online-environments"><a class="markdownIt-Anchor" href="#other-easy-access-online-environments"></a> Other easy access online environments</h2>
-<ul>
-<li><a href="https://killercoda.com/">killercoda</a></li>
-</ul>
-<p>…</p>
-<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
-<ul>
-<li><a href="https://minikube.sigs.k8s.io/docs/">minikube docs</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>K8s</tag>
-        <tag>Cloud Native</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何在 go 服务中同时生成 gRPC 以及 RESTful 两种「api」</title>
-    <url>/posts/3675602205/</url>
-    <content><![CDATA[<h2 id="grpc-介绍"><a class="markdownIt-Anchor" href="#grpc-介绍"></a> gRPC 介绍</h2>
-<p>gRPC 是一种广泛应用的 RPC 框架，其在性能和兼容性上都有一定的提升：</p>
-<ul>
-<li>使用 Protobuf 进行数据编码，实现了很高的数据压缩率</li>
-<li>使用 HTTP 2.0 弥补了 HTTP 1.1 的不足，例如多路复用的机制让连接数量减少</li>
-</ul>
-<p>但是在实际的应用过程中，我们可能不仅需要 gRPC 完成内部各微服务之间的交互，很多时候也需要对外仍然使用 RESTful 类型的 api。同时实现两种形式的 api 接口是一种解决方案，但这样不仅降低开发效率也增加了调试难度。gRPC-Gateway 很好地解决的这个问题，其实现方法如下图，gRPC-Gateway 以网关的形式将 RESTful 的 api 转化为 gRPC 的形式：</p>
-<span id="more"></span>
-<p><img src="https://markdown.diobrando0825.cn/2021-06-04-architecture_introduction_diagram.svg" alt="" /></p>
-<p>本文就直接略去 gRPC 以及 gRPC-Gateway 的安装步骤以及普通的使用方式介绍，直接介绍如何将 gRPC-Gateway 应用于普通方式中。下面的 proto 文件中✅ 部分为使用 gRPC-Gateway 需要增加的部分。</p>
-<h2 id="编写-proto-文件"><a class="markdownIt-Anchor" href="#编写-proto-文件"></a> 编写 proto 文件</h2>
-<figure class="highlight protobuf"><table><tr><td class="code"><pre><span class="line"><span class="comment">// tmp.proto</span></span><br><span class="line"><span class="comment">// 使用 proto2/3 语法</span></span><br><span class="line">syntax = <span class="string">&quot;proto3&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// ✅ 引入 google api 官方扩展包</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;google/api/annotations.proto&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 包/作用域/name space</span></span><br><span class="line"><span class="keyword">package</span> tmp</span><br><span class="line"></span><br><span class="line"><span class="comment">// option go_package = &quot;path;name&quot;</span></span><br><span class="line"><span class="comment">// path 表示生成的 go 文件存放的位置，name 表示生成的 go 文件所属的包</span></span><br><span class="line"><span class="keyword">option</span> go_package = <span class="string">&quot;.;tmp&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//--------Message--------</span></span><br><span class="line"><span class="class"><span class="keyword">message</span> <span class="title">TmpReq</span> </span>&#123;</span><br><span class="line">	<span class="built_in">int64</span> field1  = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">string</span> field2 = <span class="number">2</span>;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">message</span> <span class="title">TmpResp</span> </span>&#123;</span><br><span class="line">	<span class="built_in">int64</span> field1  = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">string</span> field2 = <span class="number">2</span>;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//--------Service--------</span></span><br><span class="line"><span class="class"><span class="keyword">service</span> <span class="title">TmpService</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">rpc</span> TmpFunc(TmpReq) <span class="keyword">returns</span> (TmpResp) </span>&#123; </span><br><span class="line">	<span class="comment">// ✅ google.api.http</span></span><br><span class="line">	<span class="keyword">option</span> (google.api.http) = &#123;</span><br><span class="line">		post: <span class="string">&quot;/tmp_func&quot;</span></span><br><span class="line">		body: *</span><br><span class="line">	&#125;,&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="生成文件"><a class="markdownIt-Anchor" href="#生成文件"></a> 生成文件</h2>
-<h3 id="生成-tmppbgo-grpc"><a class="markdownIt-Anchor" href="#生成-tmppbgo-grpc"></a> 生成 tmp.pb.go (gRPC)</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --go_out=plugins=grpc:. tmp.proto</span><br></pre></td></tr></table></figure>
-<h3 id="生成-tmppbgwgo-http"><a class="markdownIt-Anchor" href="#生成-tmppbgwgo-http"></a> 生成 tmp.pb.gw.go (http) ✅</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --grpc-gateway_out=logtostderr=<span class="literal">true</span>:. tmp.proto </span><br></pre></td></tr></table></figure>
-<h3 id="生成-swagger"><a class="markdownIt-Anchor" href="#生成-swagger"></a> 生成 swagger</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --go_out=plugins=grpc:. tmp.proto</span><br></pre></td></tr></table></figure>
-<h2 id="启动服务"><a class="markdownIt-Anchor" href="#启动服务"></a> 启动服务</h2>
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">&quot;flag&quot;</span></span><br><span class="line">	<span class="string">&quot;net/http&quot;</span></span><br><span class="line"></span><br><span class="line">	<span class="string">&quot;github.com/golang/glog&quot;</span></span><br><span class="line">	<span class="string">&quot;github.com/grpc-ecosystem/grpc-gateway/runtime&quot;</span></span><br><span class="line">	<span class="string">&quot;golang.org/x/net/context&quot;</span></span><br><span class="line">	<span class="string">&quot;google.golang.org/grpc&quot;</span></span><br><span class="line"></span><br><span class="line">	gw <span class="string">&quot;grpc-helloworld-gateway/helloworld&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> (</span><br><span class="line">	echoEndpoint = flag.String(<span class="string">&quot;echo_endpoint&quot;</span>, <span class="string">&quot;localhost:50051&quot;</span>, <span class="string">&quot;endpoint of YourService&quot;</span>)</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">run</span><span class="params">()</span> <span class="title">error</span></span> &#123;</span><br><span class="line">	ctx := context.Background()</span><br><span class="line">	ctx, cancel := context.WithCancel(ctx)</span><br><span class="line">	<span class="keyword">defer</span> cancel()</span><br><span class="line"></span><br><span class="line">	mux := runtime.NewServeMux()</span><br><span class="line">	opts := []grpc.DialOption&#123;grpc.WithInsecure()&#125;</span><br><span class="line">	err := gw.RegisterGreeterHandlerFromEndpoint(ctx, mux, *echoEndpoint, opts)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> err</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> http.ListenAndServe(<span class="string">&quot;:8080&quot;</span>, mux)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	flag.Parse()</span><br><span class="line">	<span class="keyword">defer</span> glog.Flush()</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> err := run(); err != <span class="literal">nil</span> &#123;</span><br><span class="line">		glog.Fatal(err)</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="参考文献"><a class="markdownIt-Anchor" href="#参考文献"></a> 参考文献</h2>
-<ul>
-<li><a href="https://grpc.io/docs/what-is-grpc/introduction/">gRPC</a></li>
-<li><a href="https://github.com/grpc-ecosystem/grpc-gateway">gRPC-Gateway</a></li>
-<li><a href="https://developers.google.com/protocol-buffers">Protocal Buffers</a></li>
-<li><a href="https://www.cnblogs.com/andyidea/archive/2017/03/10/6529900.html">grpc转换为http协议对外提供服务</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Golang</tag>
-        <tag>gRPC</tag>
-        <tag>ProtoBuf</tag>
       </tags>
   </entry>
 </search>

@@ -122,7 +122,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">6</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">9</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -132,7 +132,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">3</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">4</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -183,6 +183,179 @@
 
           <div class="content index posts-expand">
             
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN,en">
+    <link itemprop="mainEntityOfPage" href="https://xuyangwang0825.github.io/posts/817167632/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://markdown.diobrando0825.cn/2021-05-25-052447.jpg">
+      <meta itemprop="name" content="Xuyang Wang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xuyang's Blooooog!">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/posts/817167632/" class="post-title-link" itemprop="url">Docker and k8s basics</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-02-20 22:57:10" itemprop="dateCreated datePublished" datetime="2023-02-20T22:57:10+08:00">2023-02-20</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-02-21 15:11:25" itemprop="dateModified" datetime="2023-02-21T15:11:25+08:00">2023-02-21</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">技术</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/posts/817167632/" class="post-meta-item leancloud_visitors" data-flag-title="Docker and k8s basics" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/posts/817167632/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/posts/817167632/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.1k</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="docker"><a class="markdownIt-Anchor" href="#docker"></a> Docker</h1>
+<blockquote>
+<p>Use containers to <strong>build</strong>, <strong>share</strong> and <strong>run</strong> your appplications</p>
+</blockquote>
+<h2 id="main-concepts"><a class="markdownIt-Anchor" href="#main-concepts"></a> Main concepts</h2>
+<ul>
+<li>
+<p>Container: A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another</p>
+</li>
+<li>
+<p>Image: A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.</p>
+<p><strong>images become containers when they run on <a target="_blank" rel="noopener" href="https://www.docker.com/products/container-runtime">Docker Engine</a>.</strong></p>
+</li>
+</ul>
+<h2 id="advantages"><a class="markdownIt-Anchor" href="#advantages"></a> Advantages</h2>
+<ul>
+<li>Standard**😗* Docker created the industry standard for containers, so they could be portable anywhere</li>
+<li>Lightweight**😗* Containers share the machine’s OS system kernel and therefore do not require an OS per application, driving higher server efficiencies and reducing server and licensing costs</li>
+<li>Secure**😗* Applications are safer in containers and Docker provides the strongest default isolation capabilities in the industry</li>
+</ul>
+<h1 id="kubernetes"><a class="markdownIt-Anchor" href="#kubernetes"></a> Kubernetes</h1>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://kubernetes.io/docs/concepts/overview/">Kubernetes</a>, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.</p>
+</blockquote>
+<h2 id="features"><a class="markdownIt-Anchor" href="#features"></a> Features</h2>
+<ul>
+<li>
+<p><strong>Automated rollouts and rollbacks</strong>: k8s progressively rolls out changes and will monitor the application health. If something wrong, k8s will rollback automatically.</p>
+</li>
+<li>
+<p><strong>Service discovery and load balancing</strong>: Kubernetes gives Pods their own IP addresses and a single DNS name for a set of Pods, and can load-balance across them.</p>
+</li>
+<li>
+<p><strong>Storage orchestration</strong>: Automatically mount the storage system(local storage or public cloud provider)</p>
+</li>
+<li>
+<p><strong>Self-healing</strong>: Restarts containers that fail, replaces and reschedules containers when nodes die</p>
+</li>
+<li>
+<p><strong>Secret and configuration management</strong>: Deploy and update secrets and application configuration without rebuilding your image and without exposing secrets in your stack configuration.</p>
+</li>
+<li>
+<p><strong>Automatic bin packing</strong></p>
+<p>Automatically places containers based on their resource requirements and other constraints</p>
+</li>
+<li>
+<p><strong>Batch execution</strong><br />
+In addition to services, Kubernetes can manage your batch and CI workloads, replacing containers that fail, if desired.</p>
+</li>
+<li>
+<p><strong>Horizontal scaling</strong></p>
+<p>Scale your application up and down with a simple command, with a UI, or automatically based on CPU usage.</p>
+</li>
+<li>
+<p><strong>IPv4/IPv6 dual-stack</strong></p>
+<p>Allocation of IPv4 and IPv6 addresses to Pods and Services</p>
+</li>
+<li>
+<p><strong>Designed for extensibility</strong></p>
+<p>Add features to your Kubernetes cluster without changing upstream source code.</p>
+</li>
+</ul>
+<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
+<ul>
+<li>
+<p><a target="_blank" rel="noopener" href="https://www.docker.com/resources/what-container/">What is container?</a></p>
+</li>
+<li>
+<p><a target="_blank" rel="noopener" href="https://kubernetes.io/">K8s</a></p>
+</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
       
   
   
@@ -444,7 +617,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-02-18 15:04:31" itemprop="dateModified" datetime="2023-02-18T15:04:31+08:00">2023-02-18</time>
+                <time title="修改时间：2023-02-21 15:10:47" itemprop="dateModified" datetime="2023-02-21T15:10:47+08:00">2023-02-21</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -593,7 +766,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -606,7 +779,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -689,7 +862,7 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">8k</span>
+    <span title="站点总字数">10k</span>
 
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动

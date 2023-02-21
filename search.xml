@@ -688,12 +688,12 @@
   <entry>
     <title>Docker and k8s basics</title>
     <url>/posts/817167632/</url>
-    <content><![CDATA[<p><em>TL;DR</em>: This article is about basics of Docker &amp; K8s.</p>
-<span id="more"></span>
+    <content><![CDATA[<p><strong>TL;DR:</strong> This article is about basics of Docker &amp; K8s.</p>
 <h1 id="docker"><a class="markdownIt-Anchor" href="#docker"></a> Docker</h1>
 <blockquote>
 <p>Use containers to <strong>build</strong>, <strong>share</strong> and <strong>run</strong> your appplications</p>
 </blockquote>
+<span id="more"></span>
 <h2 id="main-concepts"><a class="markdownIt-Anchor" href="#main-concepts"></a> Main concepts</h2>
 <ul>
 <li>

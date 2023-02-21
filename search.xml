@@ -688,7 +688,9 @@
   <entry>
     <title>Docker and k8s basics</title>
     <url>/posts/817167632/</url>
-    <content><![CDATA[<h1 id="docker"><a class="markdownIt-Anchor" href="#docker"></a> Docker</h1>
+    <content><![CDATA[<p><em>TL;DR</em>: This article is about basics of Docker &amp; K8s.</p>
+<span id="more"></span>
+<h1 id="docker"><a class="markdownIt-Anchor" href="#docker"></a> Docker</h1>
 <blockquote>
 <p>Use containers to <strong>build</strong>, <strong>share</strong> and <strong>run</strong> your appplications</p>
 </blockquote>
@@ -776,6 +778,8 @@ In addition to services, Kubernetes can manage your batch and CI workloads, repl
 <blockquote>
 <p>This article is about setting up local k8s environment for testing and learning k8s</p>
 </blockquote>
+<p><img src="https://markdown.diobrando0825.cn/2023-02-21-Screenshot%202023-02-21%20at%2012.18.41%20AM.png" alt="" /></p>
+<span id="more"></span>
 <h2 id="some-prerequisites"><a class="markdownIt-Anchor" href="#some-prerequisites"></a> Some prerequisites</h2>
 <ul>
 <li>Homebrew</li>

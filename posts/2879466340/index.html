@@ -20,17 +20,23 @@
     var CONFIG = {"hostname":"xuyangwang0825.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","width":300,"display":"post","padding":15,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":true,"color":"#555","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":true,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="category">
-<meta property="og:url" content="https://xuyangwang0825.github.io/en/categories/">
+  <meta name="description" content="How Helm works   What is Helm  Helm is a package manager for Kubernetes   What is Helm chart  Helm chart is a bundle of YAML files We can create our own helm chart and push them to the helm repositor">
+<meta property="og:type" content="article">
+<meta property="og:title" content="What is helm">
+<meta property="og:url" content="https://xuyangwang0825.github.io/posts/2879466340/">
 <meta property="og:site_name" content="Xuyang&#39;s Blooooog!">
-<meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-05-24T11:45:27.000Z">
-<meta property="article:modified_time" content="2021-05-25T03:41:51.533Z">
+<meta property="og:description" content="How Helm works   What is Helm  Helm is a package manager for Kubernetes   What is Helm chart  Helm chart is a bundle of YAML files We can create our own helm chart and push them to the helm repositor">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://markdown.diobrando0825.cn/2023-02-21-220018.png">
+<meta property="article:published_time" content="2023-02-21T05:31:51.000Z">
+<meta property="article:modified_time" content="2023-02-21T22:22:51.022Z">
 <meta property="article:author" content="Xuyang Wang">
+<meta property="article:tag" content="K8s">
+<meta property="article:tag" content="Cloud Native">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://markdown.diobrando0825.cn/2023-02-21-220018.png">
 
-<link rel="canonical" href="https://xuyangwang0825.github.io/en/categories/">
+<link rel="canonical" href="https://xuyangwang0825.github.io/posts/2879466340/">
 
 
 <script id="page-configurations">
@@ -38,13 +44,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
-    lang   : 'en'
+    isPost : true,
+    lang   : 'zh-CN'
   };
 </script>
 
-  <title>category | Xuyang's Blooooog!
-</title>
+  <title>What is helm | Xuyang's Blooooog!</title>
   
 
 
@@ -183,63 +188,195 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="en">
-      <header class="post-header">
-
-<h1 class="post-title" itemprop="name headline">category
-</h1>
-
-<div class="post-meta">
   
-  <ul class="breadcrumb">
-          
-            <li><a href="/en/">EN</a></li>
-          <li>CATEGORIES</li>
-        
-  </ul>
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xuyangwang0825.github.io/posts/2879466340/">
 
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://markdown.diobrando0825.cn/2021-05-25-052447.jpg">
+      <meta itemprop="name" content="Xuyang Wang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xuyang's Blooooog!">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          What is helm
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-02-21 13:31:51" itemprop="dateCreated datePublished" datetime="2023-02-21T13:31:51+08:00">2023-02-21</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-02-22 06:22:51" itemprop="dateModified" datetime="2023-02-22T06:22:51+08:00">2023-02-22</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">技术</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/posts/2879466340/" class="post-meta-item leancloud_visitors" data-flag-title="What is helm" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/posts/2879466340/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/posts/2879466340/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>849</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="how-helm-works"><a class="markdownIt-Anchor" href="#how-helm-works"></a> How Helm works</h1>
+<p><img src="https://markdown.diobrando0825.cn/2023-02-21-220018.png" alt="" /></p>
+<h2 id="what-is-helm"><a class="markdownIt-Anchor" href="#what-is-helm"></a> What is Helm</h2>
+<ul>
+<li>Helm is a package manager for Kubernetes</li>
+</ul>
+<h2 id="what-is-helm-chart"><a class="markdownIt-Anchor" href="#what-is-helm-chart"></a> What is Helm chart</h2>
+<ul>
+<li>Helm chart is a bundle of YAML files</li>
+<li>We can create our own helm chart and push them to the helm repository</li>
+<li>Also we can download and use existing chart in helm repository</li>
+<li>Including database apps(MongoDB, MySQL), monitoring apps(Prometheus)…</li>
+</ul>
+<h2 id="commonly-used-command"><a class="markdownIt-Anchor" href="#commonly-used-command"></a> Commonly used command</h2>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># search</span></span><br><span class="line">&gt; helm search &lt;hub/repo&gt; &lt;keyword&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># install</span></span><br><span class="line">&gt; helm install --values=&lt;value file path&gt; &lt;chartname&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="chart-structure"><a class="markdownIt-Anchor" href="#chart-structure"></a> Chart structure</h2>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">── mychart</span><br><span class="line">    ├── Chart.yaml <span class="comment"># metadata of the chart</span></span><br><span class="line">    └── values.yaml <span class="comment"># values for the template</span></span><br><span class="line">    └── charts <span class="comment"># chart dependencies</span></span><br><span class="line">   			  └── dependedchart.yaml <span class="comment"># dependent charts</span></span><br><span class="line">   			  ...</span><br><span class="line">    └── templates <span class="comment"># template files</span></span><br><span class="line">          └── template1.yaml</span><br><span class="line">          ...</span><br></pre></td></tr></table></figure>
+<h1 id="what-is-tiller"><a class="markdownIt-Anchor" href="#what-is-tiller"></a> What is Tiller</h1>
+<p>Tiller is a server-side helm in k8s clusters that helps install the package in the cluster.</p>
+<p>But Tiller has too much power inside the k8s cluster, so it may have many security issues. <strong>In helm3, Tiller is deprecated.</strong></p>
+<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/helm/helm">Helm</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=-ykwb1d0DXU&amp;list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb&amp;index=25&amp;t=12s&amp;ab_channel=TechWorldwithNana">TechWorld with Nana</a></li>
+</ul>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>Xuyang Wang
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://xuyangwang0825.github.io/posts/2879466340/" title="What is helm">https://xuyangwang0825.github.io/posts/2879466340/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
 </div>
 
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <div class="category-all-page">
-            <div class="category-all-title">
-              2 categories in total
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%95%99%E5%AD%A6/">留学</a><span class="category-list-count">2</span></li></ul>
-            </div>
-          </div>
         
-      </div>
-      
-      
-      
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
     </div>
-    
-  <ul class="breadcrumb">
-          
-            <li><a href="/en/">EN</a></li>
-          <li>CATEGORIES</li>
-        
-  </ul>
+  </div>
 
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/K8s/" rel="tag"># K8s</a>
+              <a href="/tags/Cloud-Native/" rel="tag"># Cloud Native</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/1975851450/" rel="prev" title="Setup local kubernetes enviroment">
+      <i class="fa fa-chevron-left"></i> Setup local kubernetes enviroment
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
     
     
-    
+  </article>
+  
+  
+  
+
 
 
           </div>
@@ -282,15 +419,16 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#how-helm-works"><span class="nav-number">1.</span> <span class="nav-text"> How Helm works</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#what-is-helm"><span class="nav-number">1.1.</span> <span class="nav-text"> What is Helm</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#what-is-helm-chart"><span class="nav-number">1.2.</span> <span class="nav-text"> What is Helm chart</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#commonly-used-command"><span class="nav-number">1.3.</span> <span class="nav-text"> Commonly used command</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#chart-structure"><span class="nav-number">1.4.</span> <span class="nav-text"> Chart structure</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#what-is-tiller"><span class="nav-number">2.</span> <span class="nav-text"> What is Tiller</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#reference"><span class="nav-number">3.</span> <span class="nav-text"> Reference</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -371,16 +509,16 @@
   <div class="languages">
     <label class="lang-select-label">
       <i class="fa fa-language"></i>
-      <span>English</span>
+      <span>简体中文</span>
       <i class="fa fa-angle-up" aria-hidden="true"></i>
     </label>
     <select class="lang-select" data-canonical="">
       
-        <option value="zh-CN" data-href="/categories/" selected="">
+        <option value="zh-CN" data-href="/posts/2879466340/" selected="">
           简体中文
         </option>
       
-        <option value="en" data-href="/en/categories/" selected="">
+        <option value="en" data-href="/en/posts/2879466340/" selected="">
           English
         </option>
       

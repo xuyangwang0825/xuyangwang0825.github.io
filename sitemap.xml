@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xuyangwang0825.github.io/posts/2879466340/</loc>
+    
+    <lastmod>2023-02-21</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://xuyangwang0825.github.io/posts/1975851450/</loc>
     
     <lastmod>2023-02-21</lastmod>
@@ -88,13 +95,6 @@
   </url>
   
   <url>
-    <loc>https://xuyangwang0825.github.io/tags/Docker/</loc>
-    <lastmod>2023-02-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xuyangwang0825.github.io/tags/K8s/</loc>
     <lastmod>2023-02-21</lastmod>
     <changefreq>daily</changefreq>
@@ -124,6 +124,13 @@
   
   <url>
     <loc>https://xuyangwang0825.github.io/tags/ProtoBuf/</loc>
+    <lastmod>2023-02-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuyangwang0825.github.io/tags/Docker/</loc>
     <lastmod>2023-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

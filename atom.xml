@@ -6,7 +6,7 @@
   <link href="https://xuyangwang0825.github.io/atom.xml" rel="self"/>
   
   <link href="https://xuyangwang0825.github.io/"/>
-  <updated>2023-02-21T20:17:47.245Z</updated>
+  <updated>2023-02-21T22:22:51.022Z</updated>
   <id>https://xuyangwang0825.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>What is helm</title>
+    <link href="https://xuyangwang0825.github.io/posts/2879466340/"/>
+    <id>https://xuyangwang0825.github.io/posts/2879466340/</id>
+    <published>2023-02-21T05:31:51.000Z</published>
+    <updated>2023-02-21T22:22:51.022Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="how-helm-works"><a class="markdownIt-Anchor" href="#how-helm-works"></a> How Helm works</h1><p><img src="https://markdown.diobrando0825.cn/2023-02-21-220018.png" alt="" /></p><h2 id="what-is-helm"><a class="markdownIt-Anchor" href="#what-is-helm"></a> What is Helm</h2><ul><li>Helm is a package manager for Kubernetes</li></ul><h2 id="what-is-helm-chart"><a class="markdownIt-Anchor" href="#what-is-helm-chart"></a> What is Helm chart</h2><ul><li>Helm chart is a bundle of YAML files</li><li>We can create our own helm chart and push them to the helm repository</li><li>Also we can download and use existing chart in helm repository</li><li>Including database apps(MongoDB, MySQL), monitoring apps(Prometheus)…</li></ul><h2 id="commonly-used-command"><a class="markdownIt-Anchor" href="#commonly-used-command"></a> Commonly used command</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># search</span></span><br><span class="line">&gt; helm search &lt;hub/repo&gt; &lt;keyword&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># install</span></span><br><span class="line">&gt; helm install --values=&lt;value file path&gt; &lt;chartname&gt;</span><br></pre></td></tr></table></figure><h2 id="chart-structure"><a class="markdownIt-Anchor" href="#chart-structure"></a> Chart structure</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">── mychart</span><br><span class="line">    ├── Chart.yaml <span class="comment"># metadata of the chart</span></span><br><span class="line">    └── values.yaml <span class="comment"># values for the template</span></span><br><span class="line">    └── charts <span class="comment"># chart dependencies</span></span><br><span class="line">     └── dependedchart.yaml <span class="comment"># dependent charts</span></span><br><span class="line">     ...</span><br><span class="line">    └── templates <span class="comment"># template files</span></span><br><span class="line">          └── template1.yaml</span><br><span class="line">          ...</span><br></pre></td></tr></table></figure><h1 id="what-is-tiller"><a class="markdownIt-Anchor" href="#what-is-tiller"></a> What is Tiller</h1><p>Tiller is a server-side helm in k8s clusters that helps install the package in the cluster.</p><p>But Tiller has too much power inside the k8s cluster, so it may have many security issues. <strong>In helm3, Tiller is deprecated.</strong></p><h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1><ul><li><a href="https://github.com/helm/helm">Helm</a></li><li><a href="https://www.youtube.com/watch?v=-ykwb1d0DXU&amp;list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb&amp;index=25&amp;t=12s&amp;ab_channel=TechWorldwithNana">TechWorld with Nana</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;how-helm-works&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#how-helm-works&quot;&gt;&lt;/a&gt; How Helm works&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://markdown.diobrando</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="https://xuyangwang0825.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="K8s" scheme="https://xuyangwang0825.github.io/tags/K8s/"/>
+    
+    <category term="Cloud Native" scheme="https://xuyangwang0825.github.io/tags/Cloud-Native/"/>
+    
+  </entry>
   
   <entry>
     <title>Setup local kubernetes enviroment</title>
@@ -64,11 +91,11 @@
     <category term="技术" scheme="https://xuyangwang0825.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="Docker" scheme="https://xuyangwang0825.github.io/tags/Docker/"/>
-    
     <category term="K8s" scheme="https://xuyangwang0825.github.io/tags/K8s/"/>
     
     <category term="Cloud Native" scheme="https://xuyangwang0825.github.io/tags/Cloud-Native/"/>
+    
+    <category term="Docker" scheme="https://xuyangwang0825.github.io/tags/Docker/"/>
     
   </entry>
   

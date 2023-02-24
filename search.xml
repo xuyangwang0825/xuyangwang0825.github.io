@@ -1,44 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>21FALL英美混申经验</title>
-    <url>/posts/1907751636/</url>
-    <content><![CDATA[<h1 id="背景介绍"><a class="markdownIt-Anchor" href="#背景介绍"></a> 背景介绍</h1>
-<p>三维：GPA 3.28 (最后三个学期3.61) TOEFL 108(S25) GRE 323(153+170+3.5)</p>
-<h1 id="申请-timeline"><a class="markdownIt-Anchor" href="#申请-timeline"></a> 申请 Timeline</h1>
-<p><img src="https://markdown.diobrando0825.cn/2021-06-08-Screen%20Shot%202021-06-08%20at%203.35.24%20PM.png" alt="" /></p>
-<span id="more"></span>
-<h1 id="具体的申请准备"><a class="markdownIt-Anchor" href="#具体的申请准备"></a> 具体的申请准备：</h1>
-<h2 id="软硬实力对于申请的影响和作用"><a class="markdownIt-Anchor" href="#软硬实力对于申请的影响和作用"></a> 软硬实力对于申请的影响和作用</h2>
-<p>要想知道如何提升自己从而拿到更好的录取，那就要从分析申请中各种因素对于结果的影响开始。从我根据一些学校录取数据的分析以及一亩三分地中看到的一些招生官的分享来看，各种软硬实力的优先级大概如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">GPA  &gt;&gt; TOEFL, GRE &gt; 科研实习 &gt; 推荐信 &gt; 课外活动(志愿者、学生会等等)</span><br></pre></td></tr></table></figure>
-<p>与申请美本不同，申请硕士/博士并不关心你多样化的课外活动背景，而是更加在意你在学术上的指标。上面的排序是基于平均水平的科研/实习/推荐信来说的，如果你有一作的顶会或顶刊或者在实习中能展现出可以量化的指标例如对于github上几十k的star的开源项目有过贡献，再或者有真正的牛推，这些当然可以更大程度上提升你的竞争力甚至一定程度上弥补GPA的劣势，但是这些都是更加难获得的东西。</p>
-<p>因此，在平均水平下，GPA 无疑是最重要的，然后是托福 GRE 需要达标，大概是110, 330 对应 TOP10，105, 325 对应 TOP30，100, 320 对应 TOP50，当然这个就并不绝对了，但是对于 GPA 低的同学来说，TG 一定要尽量高点，至少不拖后腿。上面说的三维主要是硬指标，后面的科研实习推荐信则是软指标了。</p>
-<h2 id="在-gpa-很难提升的情况下如何提升自己的背景"><a class="markdownIt-Anchor" href="#在-gpa-很难提升的情况下如何提升自己的背景"></a> 在 GPA 很难提升的情况下如何提升自己的背景</h2>
-<p>了解了优先级，下面我来分享一下该如何提升自己的背景。</p>
-<p>关于 GPA、托福、GRE 想必同学们都比较了解，这里就不多赘述了，主要来说一下软实力方面如何提升。</p>
-<p>对于科研来讲，我觉得是最容易获得的软背景了，因为可以找同校的授课老师多套瓷，老师们一般都比较乐意提供这样一个机会。除了同校的教授也可以考虑一些 title 更好一点的外校的教授，例如清北中科院这些，也是通过找这些学校学院或者实验室的网站，了解老师的研究方向和背景，找到联系方式，主要是通过发邮件套瓷的方式询问老师有没有科研的机会。除了国内的教授，还可以考虑国外大学的教授，这就主要有两种渠道，一种是和上面说的一样去发邮件套瓷感兴趣的教授，还有一种是可以通过申请官方暑研的方式，我了解到的有Mitacs、UCLA-CSST、UCInspire等等。通过这些科研除了有机会收获一些科研或者项目成果，一般还可以从老师那里拿到推荐信从而加强我们的背景。详细的关于这些暑研如何陶瓷或申请都可以来咨询微思的老师们，联系方式最后我会发二维码。</p>
-<p>实习方面与科研不同，日常实习比较少，且很少会招低年级的学生。一般来说大多在大三结束的暑假大部分大厂会放出专门针对该届学生的暑期实习，因此我觉得可以在大三结束之前主要将中心放在保持GPA和在课余进行一些科研。大三上学期秋招或者下学期春招可以准备投递一些大三结束那个暑期实习的简历。投简历可以在公司官网上海投，也可以找学长学姐内推，因为内推会有一些奖励，所以学长学姐一般都会愿意去给你内推。</p>
-<p>下面分享一下如何找实习：首先是准备好简历，一定要简洁清晰，这里推荐超级简历 (<a href="http://www.wondercv.com/">www.wondercv.com/</a>) 比较适合懒人，也可以用 latex 自己排版。简历中主要呈现自己的教育经历、项目经理、技能等。然后就是准备面试，面试的准备主要分为两部分，刷题和背八股文。刷题就是 leetcode，可以按热度刷或者按 tag 或者刷特定的整理好的题目，例如剑指 Offer。八股文主要是计算机网络、操作系统、数据库这些基础知识，可以通过看 github 掘金等网站上整理好的知识点构建一个基础的框架，然后在牛客网上看自己投递职位的相关面经查漏补缺。完成实习后，实习的 leader 也可以作为推荐人提交推荐信。</p>
-<p>除了上述的科研实习外一些竞赛或其他项目也可以提升背景，例如ACM、Google Summer of Code等。</p>
-<h2 id="在低gpa下如何选择合适的学校和项目"><a class="markdownIt-Anchor" href="#在低gpa下如何选择合适的学校和项目"></a> 在低GPA下如何选择合适的学校和项目</h2>
-<p>临近大四上学期，软硬背景都已经差不多准备完毕，该撰写文书申请项目了。</p>
-<p>文书撰写方面主要注意的就是CV要清晰，最好缩到一页。PS则最好要有逻辑性，按一个方向把教育背景科研实习竞赛等连接起来，并且要根据不同项目进行适当的调整。这些可以先搭一个框架，然后再根据自己的经历进行细节的雕刻。</p>
-<p>选校方面一定要拉开梯度，在排名较高的冲刺彩票学校可以去避开最热门的专业如CS，而是尝试一些相关的专业例如DS、IS、ECE等，这样可以提高录取的几率。对于一些匹配的学校可以尝试申请CS，而对于保底校最好选择概率较大的学校，选择大概2-3所即可。</p>
-<p>具体的选校可以根据个人喜好，如果毕业目的是在美就业的话，CS专业比较有优势，可以根据地理位置/专排选择学校，对于GPA不高的同学来说可以选择地理位置好排名稍低或冷门的学校，例如 NEU、SCU、OSU、ASU、SJSU、UTD 等学校的CS项目。</p>
-<p>如果是毕业目的是回国工作的话则应该选择国际排名高的学校，低GPA的同学可以考虑例如 NYU、Vandy、WUSTL、Tufts这些综排高专排低一点的学校。</p>
-<p>选校方面还有一个小 Tips 就是有的学校申请一个专业没录取很可能会给你转录到其他相关专业，因此你就可以申请的时候冲一下好一点的专业，例如 NEU 申请 cs 被拒有可能会被转录到工程学院下的专业，NYU Tandon 申请 CS 被拒有可能会转录到 CE等等。</p>
-<p>最后安利一下一亩三分地上的 offer 多多模块，这是一个很好的平台可以去调研不同学校项目录取的背景以及寻找到相似背景的人往年的申请结果，大家一定要多看这些数据，同时也要看学校官网上相关项目的课程规划等等，从而判断自己想不想去该项目。</p>
-]]></content>
-      <categories>
-        <category>留学</category>
-      </categories>
-      <tags>
-        <tag>申请经验</tag>
-        <tag>留学</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>21秋招记录</title>
     <url>/posts/2193376716/</url>
     <content><![CDATA[<h3 id="202112-update"><a class="markdownIt-Anchor" href="#202112-update"></a> 2021.12 Update</h3>
@@ -681,8 +643,214 @@
         <category>留学</category>
       </categories>
       <tags>
-        <tag>留学</tag>
         <tag>Intern</tag>
+        <tag>留学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>21FALL英美混申经验</title>
+    <url>/posts/1907751636/</url>
+    <content><![CDATA[<h1 id="背景介绍"><a class="markdownIt-Anchor" href="#背景介绍"></a> 背景介绍</h1>
+<p>三维：GPA 3.28 (最后三个学期3.61) TOEFL 108(S25) GRE 323(153+170+3.5)</p>
+<h1 id="申请-timeline"><a class="markdownIt-Anchor" href="#申请-timeline"></a> 申请 Timeline</h1>
+<p><img src="https://markdown.diobrando0825.cn/2021-06-08-Screen%20Shot%202021-06-08%20at%203.35.24%20PM.png" alt="" /></p>
+<span id="more"></span>
+<h1 id="具体的申请准备"><a class="markdownIt-Anchor" href="#具体的申请准备"></a> 具体的申请准备：</h1>
+<h2 id="软硬实力对于申请的影响和作用"><a class="markdownIt-Anchor" href="#软硬实力对于申请的影响和作用"></a> 软硬实力对于申请的影响和作用</h2>
+<p>要想知道如何提升自己从而拿到更好的录取，那就要从分析申请中各种因素对于结果的影响开始。从我根据一些学校录取数据的分析以及一亩三分地中看到的一些招生官的分享来看，各种软硬实力的优先级大概如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">GPA  &gt;&gt; TOEFL, GRE &gt; 科研实习 &gt; 推荐信 &gt; 课外活动(志愿者、学生会等等)</span><br></pre></td></tr></table></figure>
+<p>与申请美本不同，申请硕士/博士并不关心你多样化的课外活动背景，而是更加在意你在学术上的指标。上面的排序是基于平均水平的科研/实习/推荐信来说的，如果你有一作的顶会或顶刊或者在实习中能展现出可以量化的指标例如对于github上几十k的star的开源项目有过贡献，再或者有真正的牛推，这些当然可以更大程度上提升你的竞争力甚至一定程度上弥补GPA的劣势，但是这些都是更加难获得的东西。</p>
+<p>因此，在平均水平下，GPA 无疑是最重要的，然后是托福 GRE 需要达标，大概是110, 330 对应 TOP10，105, 325 对应 TOP30，100, 320 对应 TOP50，当然这个就并不绝对了，但是对于 GPA 低的同学来说，TG 一定要尽量高点，至少不拖后腿。上面说的三维主要是硬指标，后面的科研实习推荐信则是软指标了。</p>
+<h2 id="在-gpa-很难提升的情况下如何提升自己的背景"><a class="markdownIt-Anchor" href="#在-gpa-很难提升的情况下如何提升自己的背景"></a> 在 GPA 很难提升的情况下如何提升自己的背景</h2>
+<p>了解了优先级，下面我来分享一下该如何提升自己的背景。</p>
+<p>关于 GPA、托福、GRE 想必同学们都比较了解，这里就不多赘述了，主要来说一下软实力方面如何提升。</p>
+<p>对于科研来讲，我觉得是最容易获得的软背景了，因为可以找同校的授课老师多套瓷，老师们一般都比较乐意提供这样一个机会。除了同校的教授也可以考虑一些 title 更好一点的外校的教授，例如清北中科院这些，也是通过找这些学校学院或者实验室的网站，了解老师的研究方向和背景，找到联系方式，主要是通过发邮件套瓷的方式询问老师有没有科研的机会。除了国内的教授，还可以考虑国外大学的教授，这就主要有两种渠道，一种是和上面说的一样去发邮件套瓷感兴趣的教授，还有一种是可以通过申请官方暑研的方式，我了解到的有Mitacs、UCLA-CSST、UCInspire等等。通过这些科研除了有机会收获一些科研或者项目成果，一般还可以从老师那里拿到推荐信从而加强我们的背景。详细的关于这些暑研如何陶瓷或申请都可以来咨询微思的老师们，联系方式最后我会发二维码。</p>
+<p>实习方面与科研不同，日常实习比较少，且很少会招低年级的学生。一般来说大多在大三结束的暑假大部分大厂会放出专门针对该届学生的暑期实习，因此我觉得可以在大三结束之前主要将中心放在保持GPA和在课余进行一些科研。大三上学期秋招或者下学期春招可以准备投递一些大三结束那个暑期实习的简历。投简历可以在公司官网上海投，也可以找学长学姐内推，因为内推会有一些奖励，所以学长学姐一般都会愿意去给你内推。</p>
+<p>下面分享一下如何找实习：首先是准备好简历，一定要简洁清晰，这里推荐超级简历 (<a href="http://www.wondercv.com/">www.wondercv.com/</a>) 比较适合懒人，也可以用 latex 自己排版。简历中主要呈现自己的教育经历、项目经理、技能等。然后就是准备面试，面试的准备主要分为两部分，刷题和背八股文。刷题就是 leetcode，可以按热度刷或者按 tag 或者刷特定的整理好的题目，例如剑指 Offer。八股文主要是计算机网络、操作系统、数据库这些基础知识，可以通过看 github 掘金等网站上整理好的知识点构建一个基础的框架，然后在牛客网上看自己投递职位的相关面经查漏补缺。完成实习后，实习的 leader 也可以作为推荐人提交推荐信。</p>
+<p>除了上述的科研实习外一些竞赛或其他项目也可以提升背景，例如ACM、Google Summer of Code等。</p>
+<h2 id="在低gpa下如何选择合适的学校和项目"><a class="markdownIt-Anchor" href="#在低gpa下如何选择合适的学校和项目"></a> 在低GPA下如何选择合适的学校和项目</h2>
+<p>临近大四上学期，软硬背景都已经差不多准备完毕，该撰写文书申请项目了。</p>
+<p>文书撰写方面主要注意的就是CV要清晰，最好缩到一页。PS则最好要有逻辑性，按一个方向把教育背景科研实习竞赛等连接起来，并且要根据不同项目进行适当的调整。这些可以先搭一个框架，然后再根据自己的经历进行细节的雕刻。</p>
+<p>选校方面一定要拉开梯度，在排名较高的冲刺彩票学校可以去避开最热门的专业如CS，而是尝试一些相关的专业例如DS、IS、ECE等，这样可以提高录取的几率。对于一些匹配的学校可以尝试申请CS，而对于保底校最好选择概率较大的学校，选择大概2-3所即可。</p>
+<p>具体的选校可以根据个人喜好，如果毕业目的是在美就业的话，CS专业比较有优势，可以根据地理位置/专排选择学校，对于GPA不高的同学来说可以选择地理位置好排名稍低或冷门的学校，例如 NEU、SCU、OSU、ASU、SJSU、UTD 等学校的CS项目。</p>
+<p>如果是毕业目的是回国工作的话则应该选择国际排名高的学校，低GPA的同学可以考虑例如 NYU、Vandy、WUSTL、Tufts这些综排高专排低一点的学校。</p>
+<p>选校方面还有一个小 Tips 就是有的学校申请一个专业没录取很可能会给你转录到其他相关专业，因此你就可以申请的时候冲一下好一点的专业，例如 NEU 申请 cs 被拒有可能会被转录到工程学院下的专业，NYU Tandon 申请 CS 被拒有可能会转录到 CE等等。</p>
+<p>最后安利一下一亩三分地上的 offer 多多模块，这是一个很好的平台可以去调研不同学校项目录取的背景以及寻找到相似背景的人往年的申请结果，大家一定要多看这些数据，同时也要看学校官网上相关项目的课程规划等等，从而判断自己想不想去该项目。</p>
+]]></content>
+      <categories>
+        <category>留学</category>
+      </categories>
+      <tags>
+        <tag>留学</tag>
+        <tag>申请经验</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Learning OpenKruise</title>
+    <url>/posts/1674065821/</url>
+    <content><![CDATA[<p><strong>TL;DR:</strong> In this article, I will introduce <a href="https://openkruise.io/">OpenKruise</a>, which is an extended component suite for K8s.</p>
+<h1 id="introduction"><a class="markdownIt-Anchor" href="#introduction"></a> Introduction</h1>
+<p>OpenKruise are built primarily based on <a href="https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/">CRD</a> extensions and mainly focuses on application automations, such as deployment, upgrade, ops and availability protection.</p>
+<h1 id="features"><a class="markdownIt-Anchor" href="#features"></a> Features</h1>
+<h2 id="advanced-workloads"><a class="markdownIt-Anchor" href="#advanced-workloads"></a> Advanced Workloads</h2>
+<p>OpenKruise strengthen the original workloads in k8s, like CloneSet, Advanced StatefulSet, Advanced DaemonSet, BroadcastJob. The advanced verison workloads support more powerful features such as in-place update.</p>
+<h2 id="decoupled-application-management"><a class="markdownIt-Anchor" href="#decoupled-application-management"></a> Decoupled Application Management</h2>
+<p>OpenKruise provides several decoupled ways to manage sidecar container, multi-domain deployment for applications, which means you can manage these things without modifying the Workloads of applications.</p>
+<h2 id="high-availability-protection"><a class="markdownIt-Anchor" href="#high-availability-protection"></a> High-availability Protection</h2>
+<p>OpenKruise works hard on protecting high-availability for applications. Now it can prevent your Kubernetes resources from the cascading deletion mechanism.</p>
+<h1 id="architecture"><a class="markdownIt-Anchor" href="#architecture"></a> Architecture</h1>
+<p><img src="https://openkruise.io/assets/images/architecture-08f2cb3a5b19c102412f9df77b365eef.png" alt="" /></p>
+<h2 id="apis"><a class="markdownIt-Anchor" href="#apis"></a> Apis</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">❯ kubectl get crd | grep kruise.io</span><br><span class="line">advancedcronjobs.apps.kruise.io            2023-02-21T23:27:51Z</span><br><span class="line">broadcastjobs.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">clonesets.apps.kruise.io                   2023-02-21T23:27:51Z</span><br><span class="line">containerrecreaterequests.apps.kruise.io   2023-02-21T23:27:51Z</span><br><span class="line">daemonsets.apps.kruise.io                  2023-02-21T23:27:51Z</span><br><span class="line">imagepulljobs.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">nodeimages.apps.kruise.io                  2023-02-21T23:27:51Z</span><br><span class="line">nodepodprobes.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">persistentpodstates.apps.kruise.io         2023-02-21T23:27:51Z</span><br><span class="line">podprobemarkers.apps.kruise.io             2023-02-21T23:27:51Z</span><br><span class="line">podunavailablebudgets.policy.kruise.io     2023-02-21T23:27:51Z</span><br><span class="line">resourcedistributions.apps.kruise.io       2023-02-21T23:27:51Z</span><br><span class="line">sidecarsets.apps.kruise.io                 2023-02-21T23:27:51Z</span><br><span class="line">statefulsets.apps.kruise.io                2023-02-21T23:27:51Z</span><br><span class="line">uniteddeployments.apps.kruise.io           2023-02-21T23:27:51Z</span><br><span class="line">workloadspreads.apps.kruise.io             2023-02-21T23:27:51Z</span><br></pre></td></tr></table></figure>
+<h2 id="kruise-manager"><a class="markdownIt-Anchor" href="#kruise-manager"></a> Kruise-manager</h2>
+<p>Kruise-manager is a control plane component that runs controllers and webhooks, it is deployed by a Deployment in <code>kruise-system</code> namespace.</p>
+<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
+<ul>
+<li><a href="https://openkruise.io/">OpenKruise</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>K8s</tag>
+        <tag>Cloud Native</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>What is Helm</title>
+    <url>/posts/2879466340/</url>
+    <content><![CDATA[<h1 id="how-helm-works"><a class="markdownIt-Anchor" href="#how-helm-works"></a> How Helm works</h1>
+<img src="https://markdown.diobrando0825.cn/2023-02-21-220018.png" style="zoom: 67%;" />
+<span id="more"></span>
+<h2 id="what-is-helm"><a class="markdownIt-Anchor" href="#what-is-helm"></a> What is Helm</h2>
+<ul>
+<li>Helm is a package manager for Kubernetes</li>
+</ul>
+<h2 id="what-is-helm-chart"><a class="markdownIt-Anchor" href="#what-is-helm-chart"></a> What is Helm chart</h2>
+<ul>
+<li>Helm chart is a bundle of YAML files</li>
+<li>We can create our own helm chart and push them to the helm repository</li>
+<li>Also we can download and use existing chart in helm repository</li>
+<li>Including database apps(MongoDB, MySQL), monitoring apps(Prometheus)…</li>
+</ul>
+<h2 id="commonly-used-command"><a class="markdownIt-Anchor" href="#commonly-used-command"></a> Commonly used command</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># search</span></span><br><span class="line">&gt; helm search &lt;hub/repo&gt; &lt;keyword&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># install</span></span><br><span class="line">&gt; helm install --values=&lt;value file path&gt; &lt;chartname&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="chart-structure"><a class="markdownIt-Anchor" href="#chart-structure"></a> Chart structure</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">── mychart</span><br><span class="line">    ├── Chart.yaml <span class="comment"># metadata of the chart</span></span><br><span class="line">    └── values.yaml <span class="comment"># values for the template</span></span><br><span class="line">    └── charts <span class="comment"># chart dependencies</span></span><br><span class="line">   			  └── dependedchart.yaml <span class="comment"># dependent charts</span></span><br><span class="line">   			  ...</span><br><span class="line">    └── templates <span class="comment"># template files</span></span><br><span class="line">          └── template1.yaml</span><br><span class="line">          ...</span><br></pre></td></tr></table></figure>
+<h1 id="what-is-tiller"><a class="markdownIt-Anchor" href="#what-is-tiller"></a> What is Tiller</h1>
+<p>Tiller is a server-side helm in k8s clusters that helps install the package in the cluster.</p>
+<p>But Tiller has too much power inside the k8s cluster, so it may have many security issues. <strong>In helm3, Tiller is deprecated.</strong></p>
+<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
+<ul>
+<li><a href="https://github.com/helm/helm">Helm</a></li>
+<li><a href="https://www.youtube.com/watch?v=-ykwb1d0DXU&amp;list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb&amp;index=25&amp;t=12s&amp;ab_channel=TechWorldwithNana">TechWorld with Nana</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>K8s</tag>
+        <tag>Cloud Native</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Setup local kubernetes enviroment</title>
+    <url>/posts/1975851450/</url>
+    <content><![CDATA[<h1 id="setup-local-kubernetes-environment"><a class="markdownIt-Anchor" href="#setup-local-kubernetes-environment"></a> Setup local kubernetes environment</h1>
+<blockquote>
+<p>This article is about setting up local k8s environment for testing and learning k8s</p>
+</blockquote>
+<p><img src="https://markdown.diobrando0825.cn/2023-02-21-Screenshot%202023-02-21%20at%2012.18.41%20AM.png" alt="" /></p>
+<span id="more"></span>
+<h2 id="some-prerequisites"><a class="markdownIt-Anchor" href="#some-prerequisites"></a> Some prerequisites</h2>
+<ul>
+<li>Homebrew</li>
+<li>Docker</li>
+</ul>
+<h2 id="install-minikube"><a class="markdownIt-Anchor" href="#install-minikube"></a> Install minikube</h2>
+<blockquote>
+<p><a href="https://minikube.sigs.k8s.io/docs/">minikube</a> is local Kubernetes, focusing on making it easy to learn and develop for Kubernetes.</p>
+</blockquote>
+<ul>
+<li>Using homebrew to install minikube</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install minikube</span><br></pre></td></tr></table></figure>
+<h2 id="start-minikube"><a class="markdownIt-Anchor" href="#start-minikube"></a> Start minikube</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># By default the minikube will use docker to do the virtualization part</span></span><br><span class="line"><span class="comment"># But you can also use other virtualization drivers</span></span><br><span class="line"><span class="comment"># e.g. Hyperkit, VirtualBox https://minikube.sigs.k8s.io/docs/drivers/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># start command</span></span><br><span class="line">minikube start</span><br><span class="line"></span><br><span class="line"><span class="comment"># you can also start in debug mode so that you can see more logs in the console</span></span><br><span class="line"><span class="comment"># minikube start --v=7 --alsologtostderr</span></span><br></pre></td></tr></table></figure>
+<h2 id="check-if-the-minikube-environment-is-created-successfully"><a class="markdownIt-Anchor" href="#check-if-the-minikube-environment-is-created-successfully"></a> Check if the minikube environment is created successfully</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># check the status of the minikube</span></span><br><span class="line">❯ minikube status</span><br><span class="line">minikube</span><br><span class="line"><span class="built_in">type</span>: Control Plane</span><br><span class="line">host: Running</span><br><span class="line">kubelet: Running</span><br><span class="line">apiserver: Running</span><br><span class="line">kubeconfig: Configured</span><br><span class="line"></span><br><span class="line"><span class="comment"># check the nodes</span></span><br><span class="line">❯ kubectl get nodes</span><br><span class="line">NAME       STATUS   ROLES           AGE   VERSION</span><br><span class="line">minikube   Ready    control-plane   15s   v1.26.1</span><br></pre></td></tr></table></figure>
+<h2 id="other-easy-access-online-environments"><a class="markdownIt-Anchor" href="#other-easy-access-online-environments"></a> Other easy access online environments</h2>
+<ul>
+<li><a href="https://killercoda.com/">killercoda</a></li>
+</ul>
+<p>…</p>
+<h2 id="deployment"><a class="markdownIt-Anchor" href="#deployment"></a> Deployment</h2>
+<h3 id="create-deploymentyaml"><a class="markdownIt-Anchor" href="#create-deploymentyaml"></a> Create deployment.yaml</h3>
+<p>I strongly recommend you to use vscode’s k8s extension, it will help you to create the yaml file by providing some templates.</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># deployment</span></span><br><span class="line"><span class="attr">apiVersion:</span> <span class="string">apps/v1</span></span><br><span class="line"><span class="attr">kind:</span> <span class="string">Deployment</span></span><br><span class="line"><span class="attr">metadata:</span></span><br><span class="line">  <span class="attr">name:</span> <span class="string">testapp</span></span><br><span class="line"><span class="attr">spec:</span></span><br><span class="line">  <span class="attr">replicas:</span> <span class="number">3</span></span><br><span class="line">  <span class="attr">selector:</span></span><br><span class="line">    <span class="attr">matchLabels:</span></span><br><span class="line">      <span class="attr">app:</span> <span class="string">testapp</span></span><br><span class="line">  <span class="attr">template:</span></span><br><span class="line">    <span class="attr">metadata:</span></span><br><span class="line">      <span class="attr">labels:</span></span><br><span class="line">        <span class="attr">app:</span> <span class="string">testapp</span></span><br><span class="line">    <span class="attr">spec:</span></span><br><span class="line">      <span class="attr">containers:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">testapp</span></span><br><span class="line">        <span class="attr">image:</span> <span class="string">&lt;image&gt;</span> <span class="comment"># change this to your image</span></span><br><span class="line">        <span class="attr">resources:</span></span><br><span class="line">          <span class="attr">limits:</span></span><br><span class="line">            <span class="attr">memory:</span> <span class="string">&quot;128Mi&quot;</span></span><br><span class="line">            <span class="attr">cpu:</span> <span class="string">&quot;500m&quot;</span></span><br><span class="line">        <span class="attr">ports:</span></span><br><span class="line">        <span class="bullet">-</span> <span class="attr">containerPort:</span> <span class="number">5000</span></span><br><span class="line"></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="comment"># NodePort service</span></span><br><span class="line"><span class="attr">apiVersion:</span> <span class="string">v1</span></span><br><span class="line"><span class="attr">kind:</span> <span class="string">Service</span></span><br><span class="line"><span class="attr">metadata:</span></span><br><span class="line">  <span class="attr">name:</span> <span class="string">testapp-service</span></span><br><span class="line"><span class="attr">spec:</span></span><br><span class="line">  <span class="attr">selector:</span></span><br><span class="line">    <span class="attr">app:</span> <span class="string">testapp</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">NodePort</span></span><br><span class="line">  <span class="attr">ports:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">port:</span> <span class="number">5000</span> <span class="comment"># internal port</span></span><br><span class="line">    <span class="attr">targetPort:</span> <span class="number">30800</span> <span class="comment"># this is the port exposed outside the container</span></span><br></pre></td></tr></table></figure>
+<h3 id="apply-the-deployment"><a class="markdownIt-Anchor" href="#apply-the-deployment"></a> Apply the deployment</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">❯ kubectl apply -f delpoyment.yaml</span><br><span class="line">deployment.apps/testapp created</span><br><span class="line">service/testapp-service created</span><br></pre></td></tr></table></figure>
+<h3 id="check-the-deployment"><a class="markdownIt-Anchor" href="#check-the-deployment"></a> Check the deployment</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">❯ kubectl get services</span><br><span class="line">NAME              TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)    AGE</span><br><span class="line">kubernetes        ClusterIP   10.96.0.1        &lt;none&gt;        443/TCP    12h</span><br><span class="line">testapp-service   ClusterIP   10.105.137.213   &lt;none&gt;        5000/TCP   4m42s</span><br></pre></td></tr></table></figure>
+<h3 id="access-the-service"><a class="markdownIt-Anchor" href="#access-the-service"></a> Access the service</h3>
+<p>For this step, because we are using minikube, we need to use the <code>minikube service</code> command to access the service.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">❯ minikube service testapp-service</span><br><span class="line">|-----------|-----------------|-------------|---------------------------|</span><br><span class="line">| NAMESPACE |      NAME       | TARGET PORT |            URL            |</span><br><span class="line">|-----------|-----------------|-------------|---------------------------|</span><br><span class="line">| default   | testapp-service |        5000 | http://192.168.49.2:30625 |</span><br><span class="line">|-----------|-----------------|-------------|---------------------------|</span><br><span class="line">🏃  Starting tunnel <span class="keyword">for</span> service testapp-service.</span><br><span class="line">|-----------|-----------------|-------------|------------------------|</span><br><span class="line">| NAMESPACE |      NAME       | TARGET PORT |          URL           |</span><br><span class="line">|-----------|-----------------|-------------|------------------------|</span><br><span class="line">| default   | testapp-service |             | http://127.0.0.1:51764 |</span><br></pre></td></tr></table></figure>
+<h3 id="delete-the-deployment"><a class="markdownIt-Anchor" href="#delete-the-deployment"></a> Delete the deployment</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">❯ kubectl delete -f deployment.yaml</span><br><span class="line">deployment.apps <span class="string">&quot;testapp&quot;</span> deleted</span><br><span class="line">service <span class="string">&quot;testapp-service&quot;</span> deleted</span><br></pre></td></tr></table></figure>
+<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
+<ul>
+<li><a href="https://minikube.sigs.k8s.io/docs/">minikube docs</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>K8s</tag>
+        <tag>Cloud Native</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何在 go 服务中同时生成 gRPC 以及 RESTful 两种「api」</title>
+    <url>/posts/3675602205/</url>
+    <content><![CDATA[<h2 id="grpc-介绍"><a class="markdownIt-Anchor" href="#grpc-介绍"></a> gRPC 介绍</h2>
+<p>gRPC 是一种广泛应用的 RPC 框架，其在性能和兼容性上都有一定的提升：</p>
+<ul>
+<li>使用 Protobuf 进行数据编码，实现了很高的数据压缩率</li>
+<li>使用 HTTP 2.0 弥补了 HTTP 1.1 的不足，例如多路复用的机制让连接数量减少</li>
+</ul>
+<p>但是在实际的应用过程中，我们可能不仅需要 gRPC 完成内部各微服务之间的交互，很多时候也需要对外仍然使用 RESTful 类型的 api。同时实现两种形式的 api 接口是一种解决方案，但这样不仅降低开发效率也增加了调试难度。gRPC-Gateway 很好地解决的这个问题，其实现方法如下图，gRPC-Gateway 以网关的形式将 RESTful 的 api 转化为 gRPC 的形式：</p>
+<span id="more"></span>
+<p><img src="https://markdown.diobrando0825.cn/2021-06-04-architecture_introduction_diagram.svg" alt="" /></p>
+<p>本文就直接略去 gRPC 以及 gRPC-Gateway 的安装步骤以及普通的使用方式介绍，直接介绍如何将 gRPC-Gateway 应用于普通方式中。下面的 proto 文件中✅ 部分为使用 gRPC-Gateway 需要增加的部分。</p>
+<h2 id="编写-proto-文件"><a class="markdownIt-Anchor" href="#编写-proto-文件"></a> 编写 proto 文件</h2>
+<figure class="highlight protobuf"><table><tr><td class="code"><pre><span class="line"><span class="comment">// tmp.proto</span></span><br><span class="line"><span class="comment">// 使用 proto2/3 语法</span></span><br><span class="line">syntax = <span class="string">&quot;proto3&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// ✅ 引入 google api 官方扩展包</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;google/api/annotations.proto&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 包/作用域/name space</span></span><br><span class="line"><span class="keyword">package</span> tmp</span><br><span class="line"></span><br><span class="line"><span class="comment">// option go_package = &quot;path;name&quot;</span></span><br><span class="line"><span class="comment">// path 表示生成的 go 文件存放的位置，name 表示生成的 go 文件所属的包</span></span><br><span class="line"><span class="keyword">option</span> go_package = <span class="string">&quot;.;tmp&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//--------Message--------</span></span><br><span class="line"><span class="class"><span class="keyword">message</span> <span class="title">TmpReq</span> </span>&#123;</span><br><span class="line">	<span class="built_in">int64</span> field1  = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">string</span> field2 = <span class="number">2</span>;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">message</span> <span class="title">TmpResp</span> </span>&#123;</span><br><span class="line">	<span class="built_in">int64</span> field1  = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">string</span> field2 = <span class="number">2</span>;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//--------Service--------</span></span><br><span class="line"><span class="class"><span class="keyword">service</span> <span class="title">TmpService</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">rpc</span> TmpFunc(TmpReq) <span class="keyword">returns</span> (TmpResp) </span>&#123; </span><br><span class="line">	<span class="comment">// ✅ google.api.http</span></span><br><span class="line">	<span class="keyword">option</span> (google.api.http) = &#123;</span><br><span class="line">		post: <span class="string">&quot;/tmp_func&quot;</span></span><br><span class="line">		body: *</span><br><span class="line">	&#125;,&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="生成文件"><a class="markdownIt-Anchor" href="#生成文件"></a> 生成文件</h2>
+<h3 id="生成-tmppbgo-grpc"><a class="markdownIt-Anchor" href="#生成-tmppbgo-grpc"></a> 生成 tmp.pb.go (gRPC)</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --go_out=plugins=grpc:. tmp.proto</span><br></pre></td></tr></table></figure>
+<h3 id="生成-tmppbgwgo-http"><a class="markdownIt-Anchor" href="#生成-tmppbgwgo-http"></a> 生成 tmp.pb.gw.go (http) ✅</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --grpc-gateway_out=logtostderr=<span class="literal">true</span>:. tmp.proto </span><br></pre></td></tr></table></figure>
+<h3 id="生成-swagger"><a class="markdownIt-Anchor" href="#生成-swagger"></a> 生成 swagger</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --go_out=plugins=grpc:. tmp.proto</span><br></pre></td></tr></table></figure>
+<h2 id="启动服务"><a class="markdownIt-Anchor" href="#启动服务"></a> 启动服务</h2>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">&quot;flag&quot;</span></span><br><span class="line">	<span class="string">&quot;net/http&quot;</span></span><br><span class="line"></span><br><span class="line">	<span class="string">&quot;github.com/golang/glog&quot;</span></span><br><span class="line">	<span class="string">&quot;github.com/grpc-ecosystem/grpc-gateway/runtime&quot;</span></span><br><span class="line">	<span class="string">&quot;golang.org/x/net/context&quot;</span></span><br><span class="line">	<span class="string">&quot;google.golang.org/grpc&quot;</span></span><br><span class="line"></span><br><span class="line">	gw <span class="string">&quot;grpc-helloworld-gateway/helloworld&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> (</span><br><span class="line">	echoEndpoint = flag.String(<span class="string">&quot;echo_endpoint&quot;</span>, <span class="string">&quot;localhost:50051&quot;</span>, <span class="string">&quot;endpoint of YourService&quot;</span>)</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">run</span><span class="params">()</span> <span class="title">error</span></span> &#123;</span><br><span class="line">	ctx := context.Background()</span><br><span class="line">	ctx, cancel := context.WithCancel(ctx)</span><br><span class="line">	<span class="keyword">defer</span> cancel()</span><br><span class="line"></span><br><span class="line">	mux := runtime.NewServeMux()</span><br><span class="line">	opts := []grpc.DialOption&#123;grpc.WithInsecure()&#125;</span><br><span class="line">	err := gw.RegisterGreeterHandlerFromEndpoint(ctx, mux, *echoEndpoint, opts)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> err</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> http.ListenAndServe(<span class="string">&quot;:8080&quot;</span>, mux)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	flag.Parse()</span><br><span class="line">	<span class="keyword">defer</span> glog.Flush()</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> err := run(); err != <span class="literal">nil</span> &#123;</span><br><span class="line">		glog.Fatal(err)</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="参考文献"><a class="markdownIt-Anchor" href="#参考文献"></a> 参考文献</h2>
+<ul>
+<li><a href="https://grpc.io/docs/what-is-grpc/introduction/">gRPC</a></li>
+<li><a href="https://github.com/grpc-ecosystem/grpc-gateway">gRPC-Gateway</a></li>
+<li><a href="https://developers.google.com/protocol-buffers">Protocal Buffers</a></li>
+<li><a href="https://www.cnblogs.com/andyidea/archive/2017/03/10/6529900.html">grpc转换为http协议对外提供服务</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Golang</tag>
+        <tag>gRPC</tag>
+        <tag>ProtoBuf</tag>
       </tags>
   </entry>
   <entry>
@@ -766,177 +934,9 @@ In addition to services, Kubernetes can manage your batch and CI workloads, repl
         <category>技术</category>
       </categories>
       <tags>
+        <tag>K8s</tag>
+        <tag>Cloud Native</tag>
         <tag>Docker</tag>
-        <tag>K8s</tag>
-        <tag>Cloud Native</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Learning OpenKruise</title>
-    <url>/posts/1674065821/</url>
-    <content><![CDATA[<p><strong>TL;DR:</strong> In this article, I will introduce <a href="https://openkruise.io/">OpenKruise</a>, which is an extended component suite for K8s.</p>
-<h1 id="introduction"><a class="markdownIt-Anchor" href="#introduction"></a> Introduction</h1>
-<p>OpenKruise are built primarily based on <a href="https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/">CRD</a> extensions and mainly focuses on application automations, such as deployment, upgrade, ops and availability protection.</p>
-<h1 id="features"><a class="markdownIt-Anchor" href="#features"></a> Features</h1>
-<h2 id="advanced-workloads"><a class="markdownIt-Anchor" href="#advanced-workloads"></a> Advanced Workloads</h2>
-<p>OpenKruise strengthen the original workloads in k8s, like CloneSet, Advanced StatefulSet, Advanced DaemonSet, BroadcastJob. The advanced verison workloads support more powerful features such as in-place update.</p>
-<h2 id="decoupled-application-management"><a class="markdownIt-Anchor" href="#decoupled-application-management"></a> Decoupled Application Management</h2>
-<p>OpenKruise provides several decoupled ways to manage sidecar container, multi-domain deployment for applications, which means you can manage these things without modifying the Workloads of applications.</p>
-<h2 id="high-availability-protection"><a class="markdownIt-Anchor" href="#high-availability-protection"></a> High-availability Protection</h2>
-<p>OpenKruise works hard on protecting high-availability for applications. Now it can prevent your Kubernetes resources from the cascading deletion mechanism.</p>
-<h1 id="architecture"><a class="markdownIt-Anchor" href="#architecture"></a> Architecture</h1>
-<p><img src="https://openkruise.io/assets/images/architecture-08f2cb3a5b19c102412f9df77b365eef.png" alt="" /></p>
-<h2 id="apis"><a class="markdownIt-Anchor" href="#apis"></a> Apis</h2>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">❯ kubectl get crd | grep kruise.io</span><br><span class="line">advancedcronjobs.apps.kruise.io            2023-02-21T23:27:51Z</span><br><span class="line">broadcastjobs.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">clonesets.apps.kruise.io                   2023-02-21T23:27:51Z</span><br><span class="line">containerrecreaterequests.apps.kruise.io   2023-02-21T23:27:51Z</span><br><span class="line">daemonsets.apps.kruise.io                  2023-02-21T23:27:51Z</span><br><span class="line">imagepulljobs.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">nodeimages.apps.kruise.io                  2023-02-21T23:27:51Z</span><br><span class="line">nodepodprobes.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">persistentpodstates.apps.kruise.io         2023-02-21T23:27:51Z</span><br><span class="line">podprobemarkers.apps.kruise.io             2023-02-21T23:27:51Z</span><br><span class="line">podunavailablebudgets.policy.kruise.io     2023-02-21T23:27:51Z</span><br><span class="line">resourcedistributions.apps.kruise.io       2023-02-21T23:27:51Z</span><br><span class="line">sidecarsets.apps.kruise.io                 2023-02-21T23:27:51Z</span><br><span class="line">statefulsets.apps.kruise.io                2023-02-21T23:27:51Z</span><br><span class="line">uniteddeployments.apps.kruise.io           2023-02-21T23:27:51Z</span><br><span class="line">workloadspreads.apps.kruise.io             2023-02-21T23:27:51Z</span><br></pre></td></tr></table></figure>
-<h2 id="kruise-manager"><a class="markdownIt-Anchor" href="#kruise-manager"></a> Kruise-manager</h2>
-<p>Kruise-manager is a control plane component that runs controllers and webhooks, it is deployed by a Deployment in <code>kruise-system</code> namespace.</p>
-<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
-<ul>
-<li><a href="https://openkruise.io/">OpenKruise</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>K8s</tag>
-        <tag>Cloud Native</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Setup local kubernetes enviroment</title>
-    <url>/posts/1975851450/</url>
-    <content><![CDATA[<h1 id="setup-local-kubernetes-environment"><a class="markdownIt-Anchor" href="#setup-local-kubernetes-environment"></a> Setup local kubernetes environment</h1>
-<blockquote>
-<p>This article is about setting up local k8s environment for testing and learning k8s</p>
-</blockquote>
-<p><img src="https://markdown.diobrando0825.cn/2023-02-21-Screenshot%202023-02-21%20at%2012.18.41%20AM.png" alt="" /></p>
-<span id="more"></span>
-<h2 id="some-prerequisites"><a class="markdownIt-Anchor" href="#some-prerequisites"></a> Some prerequisites</h2>
-<ul>
-<li>Homebrew</li>
-<li>Docker</li>
-</ul>
-<h2 id="install-minikube"><a class="markdownIt-Anchor" href="#install-minikube"></a> Install minikube</h2>
-<blockquote>
-<p><a href="https://minikube.sigs.k8s.io/docs/">minikube</a> is local Kubernetes, focusing on making it easy to learn and develop for Kubernetes.</p>
-</blockquote>
-<ul>
-<li>Using homebrew to install minikube</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install minikube</span><br></pre></td></tr></table></figure>
-<h2 id="start-minikube"><a class="markdownIt-Anchor" href="#start-minikube"></a> Start minikube</h2>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># By default the minikube will use docker to do the virtualization part</span></span><br><span class="line"><span class="comment"># But you can also use other virtualization drivers</span></span><br><span class="line"><span class="comment"># e.g. Hyperkit, VirtualBox https://minikube.sigs.k8s.io/docs/drivers/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># start command</span></span><br><span class="line">minikube start</span><br><span class="line"></span><br><span class="line"><span class="comment"># you can also start in debug mode so that you can see more logs in the console</span></span><br><span class="line"><span class="comment"># minikube start --v=7 --alsologtostderr</span></span><br></pre></td></tr></table></figure>
-<h2 id="check-if-the-minikube-environment-is-created-successfully"><a class="markdownIt-Anchor" href="#check-if-the-minikube-environment-is-created-successfully"></a> Check if the minikube environment is created successfully</h2>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># check the status of the minikube</span></span><br><span class="line">❯ minikube status</span><br><span class="line">minikube</span><br><span class="line"><span class="built_in">type</span>: Control Plane</span><br><span class="line">host: Running</span><br><span class="line">kubelet: Running</span><br><span class="line">apiserver: Running</span><br><span class="line">kubeconfig: Configured</span><br><span class="line"></span><br><span class="line"><span class="comment"># check the nodes</span></span><br><span class="line">❯ kubectl get nodes</span><br><span class="line">NAME       STATUS   ROLES           AGE   VERSION</span><br><span class="line">minikube   Ready    control-plane   15s   v1.26.1</span><br></pre></td></tr></table></figure>
-<h2 id="other-easy-access-online-environments"><a class="markdownIt-Anchor" href="#other-easy-access-online-environments"></a> Other easy access online environments</h2>
-<ul>
-<li><a href="https://killercoda.com/">killercoda</a></li>
-</ul>
-<p>…</p>
-<h2 id="deployment"><a class="markdownIt-Anchor" href="#deployment"></a> Deployment</h2>
-<h3 id="create-deploymentyaml"><a class="markdownIt-Anchor" href="#create-deploymentyaml"></a> Create deployment.yaml</h3>
-<p>I strongly recommend you to use vscode’s k8s extension, it will help you to create the yaml file by providing some templates.</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># deployment</span></span><br><span class="line"><span class="attr">apiVersion:</span> <span class="string">apps/v1</span></span><br><span class="line"><span class="attr">kind:</span> <span class="string">Deployment</span></span><br><span class="line"><span class="attr">metadata:</span></span><br><span class="line">  <span class="attr">name:</span> <span class="string">testapp</span></span><br><span class="line"><span class="attr">spec:</span></span><br><span class="line">  <span class="attr">replicas:</span> <span class="number">3</span></span><br><span class="line">  <span class="attr">selector:</span></span><br><span class="line">    <span class="attr">matchLabels:</span></span><br><span class="line">      <span class="attr">app:</span> <span class="string">testapp</span></span><br><span class="line">  <span class="attr">template:</span></span><br><span class="line">    <span class="attr">metadata:</span></span><br><span class="line">      <span class="attr">labels:</span></span><br><span class="line">        <span class="attr">app:</span> <span class="string">testapp</span></span><br><span class="line">    <span class="attr">spec:</span></span><br><span class="line">      <span class="attr">containers:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">testapp</span></span><br><span class="line">        <span class="attr">image:</span> <span class="string">&lt;image&gt;</span> <span class="comment"># change this to your image</span></span><br><span class="line">        <span class="attr">resources:</span></span><br><span class="line">          <span class="attr">limits:</span></span><br><span class="line">            <span class="attr">memory:</span> <span class="string">&quot;128Mi&quot;</span></span><br><span class="line">            <span class="attr">cpu:</span> <span class="string">&quot;500m&quot;</span></span><br><span class="line">        <span class="attr">ports:</span></span><br><span class="line">        <span class="bullet">-</span> <span class="attr">containerPort:</span> <span class="number">5000</span></span><br><span class="line"></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="comment"># NodePort service</span></span><br><span class="line"><span class="attr">apiVersion:</span> <span class="string">v1</span></span><br><span class="line"><span class="attr">kind:</span> <span class="string">Service</span></span><br><span class="line"><span class="attr">metadata:</span></span><br><span class="line">  <span class="attr">name:</span> <span class="string">testapp-service</span></span><br><span class="line"><span class="attr">spec:</span></span><br><span class="line">  <span class="attr">selector:</span></span><br><span class="line">    <span class="attr">app:</span> <span class="string">testapp</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">NodePort</span></span><br><span class="line">  <span class="attr">ports:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">port:</span> <span class="number">5000</span> <span class="comment"># internal port</span></span><br><span class="line">    <span class="attr">targetPort:</span> <span class="number">30800</span> <span class="comment"># this is the port exposed outside the container</span></span><br></pre></td></tr></table></figure>
-<h3 id="apply-the-deployment"><a class="markdownIt-Anchor" href="#apply-the-deployment"></a> Apply the deployment</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">❯ kubectl apply -f delpoyment.yaml</span><br><span class="line">deployment.apps/testapp created</span><br><span class="line">service/testapp-service created</span><br></pre></td></tr></table></figure>
-<h3 id="check-the-deployment"><a class="markdownIt-Anchor" href="#check-the-deployment"></a> Check the deployment</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">❯ kubectl get services</span><br><span class="line">NAME              TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)    AGE</span><br><span class="line">kubernetes        ClusterIP   10.96.0.1        &lt;none&gt;        443/TCP    12h</span><br><span class="line">testapp-service   ClusterIP   10.105.137.213   &lt;none&gt;        5000/TCP   4m42s</span><br></pre></td></tr></table></figure>
-<h3 id="access-the-service"><a class="markdownIt-Anchor" href="#access-the-service"></a> Access the service</h3>
-<p>For this step, because we are using minikube, we need to use the <code>minikube service</code> command to access the service.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">❯ minikube service testapp-service</span><br><span class="line">|-----------|-----------------|-------------|---------------------------|</span><br><span class="line">| NAMESPACE |      NAME       | TARGET PORT |            URL            |</span><br><span class="line">|-----------|-----------------|-------------|---------------------------|</span><br><span class="line">| default   | testapp-service |        5000 | http://192.168.49.2:30625 |</span><br><span class="line">|-----------|-----------------|-------------|---------------------------|</span><br><span class="line">🏃  Starting tunnel <span class="keyword">for</span> service testapp-service.</span><br><span class="line">|-----------|-----------------|-------------|------------------------|</span><br><span class="line">| NAMESPACE |      NAME       | TARGET PORT |          URL           |</span><br><span class="line">|-----------|-----------------|-------------|------------------------|</span><br><span class="line">| default   | testapp-service |             | http://127.0.0.1:51764 |</span><br></pre></td></tr></table></figure>
-<h3 id="delete-the-deployment"><a class="markdownIt-Anchor" href="#delete-the-deployment"></a> Delete the deployment</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">❯ kubectl delete -f deployment.yaml</span><br><span class="line">deployment.apps <span class="string">&quot;testapp&quot;</span> deleted</span><br><span class="line">service <span class="string">&quot;testapp-service&quot;</span> deleted</span><br></pre></td></tr></table></figure>
-<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
-<ul>
-<li><a href="https://minikube.sigs.k8s.io/docs/">minikube docs</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>K8s</tag>
-        <tag>Cloud Native</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>What is Helm</title>
-    <url>/posts/2879466340/</url>
-    <content><![CDATA[<h1 id="how-helm-works"><a class="markdownIt-Anchor" href="#how-helm-works"></a> How Helm works</h1>
-<img src="https://markdown.diobrando0825.cn/2023-02-21-220018.png" style="zoom: 67%;" />
-<span id="more"></span>
-<h2 id="what-is-helm"><a class="markdownIt-Anchor" href="#what-is-helm"></a> What is Helm</h2>
-<ul>
-<li>Helm is a package manager for Kubernetes</li>
-</ul>
-<h2 id="what-is-helm-chart"><a class="markdownIt-Anchor" href="#what-is-helm-chart"></a> What is Helm chart</h2>
-<ul>
-<li>Helm chart is a bundle of YAML files</li>
-<li>We can create our own helm chart and push them to the helm repository</li>
-<li>Also we can download and use existing chart in helm repository</li>
-<li>Including database apps(MongoDB, MySQL), monitoring apps(Prometheus)…</li>
-</ul>
-<h2 id="commonly-used-command"><a class="markdownIt-Anchor" href="#commonly-used-command"></a> Commonly used command</h2>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># search</span></span><br><span class="line">&gt; helm search &lt;hub/repo&gt; &lt;keyword&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># install</span></span><br><span class="line">&gt; helm install --values=&lt;value file path&gt; &lt;chartname&gt;</span><br></pre></td></tr></table></figure>
-<h2 id="chart-structure"><a class="markdownIt-Anchor" href="#chart-structure"></a> Chart structure</h2>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">── mychart</span><br><span class="line">    ├── Chart.yaml <span class="comment"># metadata of the chart</span></span><br><span class="line">    └── values.yaml <span class="comment"># values for the template</span></span><br><span class="line">    └── charts <span class="comment"># chart dependencies</span></span><br><span class="line">   			  └── dependedchart.yaml <span class="comment"># dependent charts</span></span><br><span class="line">   			  ...</span><br><span class="line">    └── templates <span class="comment"># template files</span></span><br><span class="line">          └── template1.yaml</span><br><span class="line">          ...</span><br></pre></td></tr></table></figure>
-<h1 id="what-is-tiller"><a class="markdownIt-Anchor" href="#what-is-tiller"></a> What is Tiller</h1>
-<p>Tiller is a server-side helm in k8s clusters that helps install the package in the cluster.</p>
-<p>But Tiller has too much power inside the k8s cluster, so it may have many security issues. <strong>In helm3, Tiller is deprecated.</strong></p>
-<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
-<ul>
-<li><a href="https://github.com/helm/helm">Helm</a></li>
-<li><a href="https://www.youtube.com/watch?v=-ykwb1d0DXU&amp;list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb&amp;index=25&amp;t=12s&amp;ab_channel=TechWorldwithNana">TechWorld with Nana</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>K8s</tag>
-        <tag>Cloud Native</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何在 go 服务中同时生成 gRPC 以及 RESTful 两种「api」</title>
-    <url>/posts/3675602205/</url>
-    <content><![CDATA[<h2 id="grpc-介绍"><a class="markdownIt-Anchor" href="#grpc-介绍"></a> gRPC 介绍</h2>
-<p>gRPC 是一种广泛应用的 RPC 框架，其在性能和兼容性上都有一定的提升：</p>
-<ul>
-<li>使用 Protobuf 进行数据编码，实现了很高的数据压缩率</li>
-<li>使用 HTTP 2.0 弥补了 HTTP 1.1 的不足，例如多路复用的机制让连接数量减少</li>
-</ul>
-<p>但是在实际的应用过程中，我们可能不仅需要 gRPC 完成内部各微服务之间的交互，很多时候也需要对外仍然使用 RESTful 类型的 api。同时实现两种形式的 api 接口是一种解决方案，但这样不仅降低开发效率也增加了调试难度。gRPC-Gateway 很好地解决的这个问题，其实现方法如下图，gRPC-Gateway 以网关的形式将 RESTful 的 api 转化为 gRPC 的形式：</p>
-<span id="more"></span>
-<p><img src="https://markdown.diobrando0825.cn/2021-06-04-architecture_introduction_diagram.svg" alt="" /></p>
-<p>本文就直接略去 gRPC 以及 gRPC-Gateway 的安装步骤以及普通的使用方式介绍，直接介绍如何将 gRPC-Gateway 应用于普通方式中。下面的 proto 文件中✅ 部分为使用 gRPC-Gateway 需要增加的部分。</p>
-<h2 id="编写-proto-文件"><a class="markdownIt-Anchor" href="#编写-proto-文件"></a> 编写 proto 文件</h2>
-<figure class="highlight protobuf"><table><tr><td class="code"><pre><span class="line"><span class="comment">// tmp.proto</span></span><br><span class="line"><span class="comment">// 使用 proto2/3 语法</span></span><br><span class="line">syntax = <span class="string">&quot;proto3&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// ✅ 引入 google api 官方扩展包</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;google/api/annotations.proto&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 包/作用域/name space</span></span><br><span class="line"><span class="keyword">package</span> tmp</span><br><span class="line"></span><br><span class="line"><span class="comment">// option go_package = &quot;path;name&quot;</span></span><br><span class="line"><span class="comment">// path 表示生成的 go 文件存放的位置，name 表示生成的 go 文件所属的包</span></span><br><span class="line"><span class="keyword">option</span> go_package = <span class="string">&quot;.;tmp&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//--------Message--------</span></span><br><span class="line"><span class="class"><span class="keyword">message</span> <span class="title">TmpReq</span> </span>&#123;</span><br><span class="line">	<span class="built_in">int64</span> field1  = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">string</span> field2 = <span class="number">2</span>;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">message</span> <span class="title">TmpResp</span> </span>&#123;</span><br><span class="line">	<span class="built_in">int64</span> field1  = <span class="number">1</span>;</span><br><span class="line">	<span class="built_in">string</span> field2 = <span class="number">2</span>;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//--------Service--------</span></span><br><span class="line"><span class="class"><span class="keyword">service</span> <span class="title">TmpService</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">rpc</span> TmpFunc(TmpReq) <span class="keyword">returns</span> (TmpResp) </span>&#123; </span><br><span class="line">	<span class="comment">// ✅ google.api.http</span></span><br><span class="line">	<span class="keyword">option</span> (google.api.http) = &#123;</span><br><span class="line">		post: <span class="string">&quot;/tmp_func&quot;</span></span><br><span class="line">		body: *</span><br><span class="line">	&#125;,&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="生成文件"><a class="markdownIt-Anchor" href="#生成文件"></a> 生成文件</h2>
-<h3 id="生成-tmppbgo-grpc"><a class="markdownIt-Anchor" href="#生成-tmppbgo-grpc"></a> 生成 tmp.pb.go (gRPC)</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --go_out=plugins=grpc:. tmp.proto</span><br></pre></td></tr></table></figure>
-<h3 id="生成-tmppbgwgo-http"><a class="markdownIt-Anchor" href="#生成-tmppbgwgo-http"></a> 生成 tmp.pb.gw.go (http) ✅</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --grpc-gateway_out=logtostderr=<span class="literal">true</span>:. tmp.proto </span><br></pre></td></tr></table></figure>
-<h3 id="生成-swagger"><a class="markdownIt-Anchor" href="#生成-swagger"></a> 生成 swagger</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">protoc -I/usr/<span class="built_in">local</span>/include -I. -I<span class="variable">$GOPATH</span>/src -I<span class="variable">$GOPATH</span>/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis --go_out=plugins=grpc:. tmp.proto</span><br></pre></td></tr></table></figure>
-<h2 id="启动服务"><a class="markdownIt-Anchor" href="#启动服务"></a> 启动服务</h2>
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">&quot;flag&quot;</span></span><br><span class="line">	<span class="string">&quot;net/http&quot;</span></span><br><span class="line"></span><br><span class="line">	<span class="string">&quot;github.com/golang/glog&quot;</span></span><br><span class="line">	<span class="string">&quot;github.com/grpc-ecosystem/grpc-gateway/runtime&quot;</span></span><br><span class="line">	<span class="string">&quot;golang.org/x/net/context&quot;</span></span><br><span class="line">	<span class="string">&quot;google.golang.org/grpc&quot;</span></span><br><span class="line"></span><br><span class="line">	gw <span class="string">&quot;grpc-helloworld-gateway/helloworld&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> (</span><br><span class="line">	echoEndpoint = flag.String(<span class="string">&quot;echo_endpoint&quot;</span>, <span class="string">&quot;localhost:50051&quot;</span>, <span class="string">&quot;endpoint of YourService&quot;</span>)</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">run</span><span class="params">()</span> <span class="title">error</span></span> &#123;</span><br><span class="line">	ctx := context.Background()</span><br><span class="line">	ctx, cancel := context.WithCancel(ctx)</span><br><span class="line">	<span class="keyword">defer</span> cancel()</span><br><span class="line"></span><br><span class="line">	mux := runtime.NewServeMux()</span><br><span class="line">	opts := []grpc.DialOption&#123;grpc.WithInsecure()&#125;</span><br><span class="line">	err := gw.RegisterGreeterHandlerFromEndpoint(ctx, mux, *echoEndpoint, opts)</span><br><span class="line">	<span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> err</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> http.ListenAndServe(<span class="string">&quot;:8080&quot;</span>, mux)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	flag.Parse()</span><br><span class="line">	<span class="keyword">defer</span> glog.Flush()</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> err := run(); err != <span class="literal">nil</span> &#123;</span><br><span class="line">		glog.Fatal(err)</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="参考文献"><a class="markdownIt-Anchor" href="#参考文献"></a> 参考文献</h2>
-<ul>
-<li><a href="https://grpc.io/docs/what-is-grpc/introduction/">gRPC</a></li>
-<li><a href="https://github.com/grpc-ecosystem/grpc-gateway">gRPC-Gateway</a></li>
-<li><a href="https://developers.google.com/protocol-buffers">Protocal Buffers</a></li>
-<li><a href="https://www.cnblogs.com/andyidea/archive/2017/03/10/6529900.html">grpc转换为http协议对外提供服务</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Golang</tag>
-        <tag>gRPC</tag>
-        <tag>ProtoBuf</tag>
       </tags>
   </entry>
 </search>

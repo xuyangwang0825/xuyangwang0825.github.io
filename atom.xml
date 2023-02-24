@@ -6,7 +6,7 @@
   <link href="https://xuyangwang0825.github.io/atom.xml" rel="self"/>
   
   <link href="https://xuyangwang0825.github.io/"/>
-  <updated>2023-02-21T23:28:53.178Z</updated>
+  <updated>2023-02-24T06:36:21.029Z</updated>
   <id>https://xuyangwang0825.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Learning OpenKruise</title>
+    <link href="https://xuyangwang0825.github.io/posts/1674065821/"/>
+    <id>https://xuyangwang0825.github.io/posts/1674065821/</id>
+    <published>2023-02-23T14:01:22.000Z</published>
+    <updated>2023-02-24T06:36:21.029Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>TL;DR:</strong> In this article, I will introduce <a href="https://openkruise.io/">OpenKruise</a>, which is an extended component suite for K8s.</p><h1 id="introduction"><a class="markdownIt-Anchor" href="#introduction"></a> Introduction</h1><p>OpenKruise are built primarily based on <a href="https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/">CRD</a> extensions and mainly focuses on application automations, such as deployment, upgrade, ops and availability protection.</p><h1 id="features"><a class="markdownIt-Anchor" href="#features"></a> Features</h1><h2 id="advanced-workloads"><a class="markdownIt-Anchor" href="#advanced-workloads"></a> Advanced Workloads</h2><p>OpenKruise strengthen the original workloads in k8s, like CloneSet, Advanced StatefulSet, Advanced DaemonSet, BroadcastJob. The advanced verison workloads support more powerful features such as in-place update.</p><h2 id="decoupled-application-management"><a class="markdownIt-Anchor" href="#decoupled-application-management"></a> Decoupled Application Management</h2><p>OpenKruise provides several decoupled ways to manage sidecar container, multi-domain deployment for applications, which means you can manage these things without modifying the Workloads of applications.</p><h2 id="high-availability-protection"><a class="markdownIt-Anchor" href="#high-availability-protection"></a> High-availability Protection</h2><p>OpenKruise works hard on protecting high-availability for applications. Now it can prevent your Kubernetes resources from the cascading deletion mechanism.</p><h1 id="architecture"><a class="markdownIt-Anchor" href="#architecture"></a> Architecture</h1><p><img src="https://openkruise.io/assets/images/architecture-08f2cb3a5b19c102412f9df77b365eef.png" alt="" /></p><h2 id="apis"><a class="markdownIt-Anchor" href="#apis"></a> Apis</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">❯ kubectl get crd | grep kruise.io</span><br><span class="line">advancedcronjobs.apps.kruise.io            2023-02-21T23:27:51Z</span><br><span class="line">broadcastjobs.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">clonesets.apps.kruise.io                   2023-02-21T23:27:51Z</span><br><span class="line">containerrecreaterequests.apps.kruise.io   2023-02-21T23:27:51Z</span><br><span class="line">daemonsets.apps.kruise.io                  2023-02-21T23:27:51Z</span><br><span class="line">imagepulljobs.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">nodeimages.apps.kruise.io                  2023-02-21T23:27:51Z</span><br><span class="line">nodepodprobes.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">persistentpodstates.apps.kruise.io         2023-02-21T23:27:51Z</span><br><span class="line">podprobemarkers.apps.kruise.io             2023-02-21T23:27:51Z</span><br><span class="line">podunavailablebudgets.policy.kruise.io     2023-02-21T23:27:51Z</span><br><span class="line">resourcedistributions.apps.kruise.io       2023-02-21T23:27:51Z</span><br><span class="line">sidecarsets.apps.kruise.io                 2023-02-21T23:27:51Z</span><br><span class="line">statefulsets.apps.kruise.io                2023-02-21T23:27:51Z</span><br><span class="line">uniteddeployments.apps.kruise.io           2023-02-21T23:27:51Z</span><br><span class="line">workloadspreads.apps.kruise.io             2023-02-21T23:27:51Z</span><br></pre></td></tr></table></figure><h2 id="kruise-manager"><a class="markdownIt-Anchor" href="#kruise-manager"></a> Kruise-manager</h2><p>Kruise-manager is a control plane component that runs controllers and webhooks, it is deployed by a Deployment in <code>kruise-system</code> namespace.</p><h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1><ul><li><a href="https://openkruise.io/">OpenKruise</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; In this article, I will introduce &lt;a href=&quot;https://openkruise.io/&quot;&gt;OpenKruise&lt;/a&gt;, which is an extended component</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="https://xuyangwang0825.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="K8s" scheme="https://xuyangwang0825.github.io/tags/K8s/"/>
+    
+    <category term="Cloud Native" scheme="https://xuyangwang0825.github.io/tags/Cloud-Native/"/>
+    
+  </entry>
   
   <entry>
     <title>What is Helm</title>
@@ -68,32 +94,6 @@
   </entry>
   
   <entry>
-    <title>Learning OpenKruise</title>
-    <link href="https://xuyangwang0825.github.io/posts/1674065821/"/>
-    <id>https://xuyangwang0825.github.io/posts/1674065821/</id>
-    <published>2023-02-20T15:01:22.000Z</published>
-    <updated>2023-02-24T06:34:46.292Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>TL;DR:</strong> In this article, I will introduce <a href="https://openkruise.io/">OpenKruise</a>, which is an extended component suite for K8s.</p><h1 id="introduction"><a class="markdownIt-Anchor" href="#introduction"></a> Introduction</h1><p>OpenKruise are built primarily based on <a href="https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/">CRD</a> extensions and mainly focuses on application automations, such as deployment, upgrade, ops and availability protection.</p><h1 id="features"><a class="markdownIt-Anchor" href="#features"></a> Features</h1><h2 id="advanced-workloads"><a class="markdownIt-Anchor" href="#advanced-workloads"></a> Advanced Workloads</h2><p>OpenKruise strengthen the original workloads in k8s, like CloneSet, Advanced StatefulSet, Advanced DaemonSet, BroadcastJob. The advanced verison workloads support more powerful features such as in-place update.</p><h2 id="decoupled-application-management"><a class="markdownIt-Anchor" href="#decoupled-application-management"></a> Decoupled Application Management</h2><p>OpenKruise provides several decoupled ways to manage sidecar container, multi-domain deployment for applications, which means you can manage these things without modifying the Workloads of applications.</p><h2 id="high-availability-protection"><a class="markdownIt-Anchor" href="#high-availability-protection"></a> High-availability Protection</h2><p>OpenKruise works hard on protecting high-availability for applications. Now it can prevent your Kubernetes resources from the cascading deletion mechanism.</p><h1 id="architecture"><a class="markdownIt-Anchor" href="#architecture"></a> Architecture</h1><p><img src="https://openkruise.io/assets/images/architecture-08f2cb3a5b19c102412f9df77b365eef.png" alt="" /></p><h2 id="apis"><a class="markdownIt-Anchor" href="#apis"></a> Apis</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">❯ kubectl get crd | grep kruise.io</span><br><span class="line">advancedcronjobs.apps.kruise.io            2023-02-21T23:27:51Z</span><br><span class="line">broadcastjobs.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">clonesets.apps.kruise.io                   2023-02-21T23:27:51Z</span><br><span class="line">containerrecreaterequests.apps.kruise.io   2023-02-21T23:27:51Z</span><br><span class="line">daemonsets.apps.kruise.io                  2023-02-21T23:27:51Z</span><br><span class="line">imagepulljobs.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">nodeimages.apps.kruise.io                  2023-02-21T23:27:51Z</span><br><span class="line">nodepodprobes.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">persistentpodstates.apps.kruise.io         2023-02-21T23:27:51Z</span><br><span class="line">podprobemarkers.apps.kruise.io             2023-02-21T23:27:51Z</span><br><span class="line">podunavailablebudgets.policy.kruise.io     2023-02-21T23:27:51Z</span><br><span class="line">resourcedistributions.apps.kruise.io       2023-02-21T23:27:51Z</span><br><span class="line">sidecarsets.apps.kruise.io                 2023-02-21T23:27:51Z</span><br><span class="line">statefulsets.apps.kruise.io                2023-02-21T23:27:51Z</span><br><span class="line">uniteddeployments.apps.kruise.io           2023-02-21T23:27:51Z</span><br><span class="line">workloadspreads.apps.kruise.io             2023-02-21T23:27:51Z</span><br></pre></td></tr></table></figure><h2 id="kruise-manager"><a class="markdownIt-Anchor" href="#kruise-manager"></a> Kruise-manager</h2><p>Kruise-manager is a control plane component that runs controllers and webhooks, it is deployed by a Deployment in <code>kruise-system</code> namespace.</p><h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1><ul><li><a href="https://openkruise.io/">OpenKruise</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; In this article, I will introduce &lt;a href=&quot;https://openkruise.io/&quot;&gt;OpenKruise&lt;/a&gt;, which is an extended component</summary>
-      
-    
-    
-    
-    <category term="技术" scheme="https://xuyangwang0825.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="K8s" scheme="https://xuyangwang0825.github.io/tags/K8s/"/>
-    
-    <category term="Cloud Native" scheme="https://xuyangwang0825.github.io/tags/Cloud-Native/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Docker and k8s basics</title>
     <link href="https://xuyangwang0825.github.io/posts/817167632/"/>
     <id>https://xuyangwang0825.github.io/posts/817167632/</id>
@@ -114,11 +114,11 @@
     <category term="技术" scheme="https://xuyangwang0825.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="Docker" scheme="https://xuyangwang0825.github.io/tags/Docker/"/>
-    
     <category term="K8s" scheme="https://xuyangwang0825.github.io/tags/K8s/"/>
     
     <category term="Cloud Native" scheme="https://xuyangwang0825.github.io/tags/Cloud-Native/"/>
+    
+    <category term="Docker" scheme="https://xuyangwang0825.github.io/tags/Docker/"/>
     
   </entry>
   
@@ -142,9 +142,9 @@
     <category term="留学" scheme="https://xuyangwang0825.github.io/categories/%E7%95%99%E5%AD%A6/"/>
     
     
-    <category term="留学" scheme="https://xuyangwang0825.github.io/tags/%E7%95%99%E5%AD%A6/"/>
-    
     <category term="Intern" scheme="https://xuyangwang0825.github.io/tags/Intern/"/>
+    
+    <category term="留学" scheme="https://xuyangwang0825.github.io/tags/%E7%95%99%E5%AD%A6/"/>
     
   </entry>
   
@@ -168,9 +168,9 @@
     <category term="留学" scheme="https://xuyangwang0825.github.io/categories/%E7%95%99%E5%AD%A6/"/>
     
     
-    <category term="申请经验" scheme="https://xuyangwang0825.github.io/tags/%E7%94%B3%E8%AF%B7%E7%BB%8F%E9%AA%8C/"/>
-    
     <category term="留学" scheme="https://xuyangwang0825.github.io/tags/%E7%95%99%E5%AD%A6/"/>
+    
+    <category term="申请经验" scheme="https://xuyangwang0825.github.io/tags/%E7%94%B3%E8%AF%B7%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   

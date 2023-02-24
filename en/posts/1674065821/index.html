@@ -20,15 +20,23 @@
     var CONFIG = {"hostname":"xuyangwang0825.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","width":300,"display":"post","padding":15,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":true,"color":"#555","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":true,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Xuyang&#39;s Blooooog!">
-<meta property="og:url" content="https://xuyangwang0825.github.io/en/categories/%E7%95%99%E5%AD%A6/">
+  <meta name="description" content="TL;DR: In this article, I will introduce OpenKruise, which is an extended component suite for K8s.  Introduction OpenKruise are built primarily based on CRD extensions and mainly focuses on applicatio">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Learning OpenKruise">
+<meta property="og:url" content="https://xuyangwang0825.github.io/en/posts/1674065821/">
 <meta property="og:site_name" content="Xuyang&#39;s Blooooog!">
-<meta property="og:locale" content="zh_CN">
+<meta property="og:description" content="TL;DR: In this article, I will introduce OpenKruise, which is an extended component suite for K8s.  Introduction OpenKruise are built primarily based on CRD extensions and mainly focuses on applicatio">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://openkruise.io/assets/images/architecture-08f2cb3a5b19c102412f9df77b365eef.png">
+<meta property="article:published_time" content="2023-02-20T15:01:22.000Z">
+<meta property="article:modified_time" content="2023-02-24T06:34:46.292Z">
 <meta property="article:author" content="Xuyang Wang">
+<meta property="article:tag" content="K8s">
+<meta property="article:tag" content="Cloud Native">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://openkruise.io/assets/images/architecture-08f2cb3a5b19c102412f9df77b365eef.png">
 
-<link rel="canonical" href="https://xuyangwang0825.github.io/en/categories/%E7%95%99%E5%AD%A6/">
+<link rel="canonical" href="https://xuyangwang0825.github.io/en/posts/1674065821/">
 
 
 <script id="page-configurations">
@@ -36,12 +44,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
-    lang   : 'zh-CN'
+    isPost : true,
+    lang   : 'en'
   };
 </script>
 
-  <title>分类: 留学 | Xuyang's Blooooog!</title>
+  <title>Learning OpenKruise | Xuyang's Blooooog!</title>
   
 
 
@@ -181,77 +189,197 @@
         <div class="content-wrap">
           
 
-          <div class="content category">
+          <div class="content post posts-expand">
             
 
+    
   
   
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://xuyangwang0825.github.io/posts/1674065821/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://markdown.diobrando0825.cn/2021-05-25-052447.jpg">
+      <meta itemprop="name" content="Xuyang Wang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xuyang's Blooooog!">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Learning OpenKruise
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2023-02-20 23:01:22" itemprop="dateCreated datePublished" datetime="2023-02-20T23:01:22+08:00">2023-02-20</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-02-24 14:34:46" itemprop="dateModified" datetime="2023-02-24T14:34:46+08:00">2023-02-24</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">技术</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/en/posts/1674065821/" class="post-meta-item leancloud_visitors" data-flag-title="Learning OpenKruise" title="Views">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
   
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">留学
-          <small>分类</small>
-        </h2>
-      </div>
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/en/posts/1674065821/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/en/posts/1674065821/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>1.8k</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+        <p><strong>TL;DR:</strong> In this article, I will introduce <a target="_blank" rel="noopener" href="https://openkruise.io/">OpenKruise</a>, which is an extended component suite for K8s.</p>
+<h1 id="introduction"><a class="markdownIt-Anchor" href="#introduction"></a> Introduction</h1>
+<p>OpenKruise are built primarily based on <a target="_blank" rel="noopener" href="https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/">CRD</a> extensions and mainly focuses on application automations, such as deployment, upgrade, ops and availability protection.</p>
+<h1 id="features"><a class="markdownIt-Anchor" href="#features"></a> Features</h1>
+<h2 id="advanced-workloads"><a class="markdownIt-Anchor" href="#advanced-workloads"></a> Advanced Workloads</h2>
+<p>OpenKruise strengthen the original workloads in k8s, like CloneSet, Advanced StatefulSet, Advanced DaemonSet, BroadcastJob. The advanced verison workloads support more powerful features such as in-place update.</p>
+<h2 id="decoupled-application-management"><a class="markdownIt-Anchor" href="#decoupled-application-management"></a> Decoupled Application Management</h2>
+<p>OpenKruise provides several decoupled ways to manage sidecar container, multi-domain deployment for applications, which means you can manage these things without modifying the Workloads of applications.</p>
+<h2 id="high-availability-protection"><a class="markdownIt-Anchor" href="#high-availability-protection"></a> High-availability Protection</h2>
+<p>OpenKruise works hard on protecting high-availability for applications. Now it can prevent your Kubernetes resources from the cascading deletion mechanism.</p>
+<h1 id="architecture"><a class="markdownIt-Anchor" href="#architecture"></a> Architecture</h1>
+<p><img src="https://openkruise.io/assets/images/architecture-08f2cb3a5b19c102412f9df77b365eef.png" alt="" /></p>
+<h2 id="apis"><a class="markdownIt-Anchor" href="#apis"></a> Apis</h2>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">❯ kubectl get crd | grep kruise.io</span><br><span class="line">advancedcronjobs.apps.kruise.io            2023-02-21T23:27:51Z</span><br><span class="line">broadcastjobs.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">clonesets.apps.kruise.io                   2023-02-21T23:27:51Z</span><br><span class="line">containerrecreaterequests.apps.kruise.io   2023-02-21T23:27:51Z</span><br><span class="line">daemonsets.apps.kruise.io                  2023-02-21T23:27:51Z</span><br><span class="line">imagepulljobs.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">nodeimages.apps.kruise.io                  2023-02-21T23:27:51Z</span><br><span class="line">nodepodprobes.apps.kruise.io               2023-02-21T23:27:51Z</span><br><span class="line">persistentpodstates.apps.kruise.io         2023-02-21T23:27:51Z</span><br><span class="line">podprobemarkers.apps.kruise.io             2023-02-21T23:27:51Z</span><br><span class="line">podunavailablebudgets.policy.kruise.io     2023-02-21T23:27:51Z</span><br><span class="line">resourcedistributions.apps.kruise.io       2023-02-21T23:27:51Z</span><br><span class="line">sidecarsets.apps.kruise.io                 2023-02-21T23:27:51Z</span><br><span class="line">statefulsets.apps.kruise.io                2023-02-21T23:27:51Z</span><br><span class="line">uniteddeployments.apps.kruise.io           2023-02-21T23:27:51Z</span><br><span class="line">workloadspreads.apps.kruise.io             2023-02-21T23:27:51Z</span><br></pre></td></tr></table></figure>
+<h2 id="kruise-manager"><a class="markdownIt-Anchor" href="#kruise-manager"></a> Kruise-manager</h2>
+<p>Kruise-manager is a control plane component that runs controllers and webhooks, it is deployed by a Deployment in <code>kruise-system</code> namespace.</p>
+<h1 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h1>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://openkruise.io/">OpenKruise</a></li>
+</ul>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
+        
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-06-16T14:53:25+08:00"
-              content="2021-06-16">
-          06-16
-        </time>
-      </div>
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:  </strong>Xuyang Wang
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link: </strong>
+    <a href="https://xuyangwang0825.github.io/posts/1674065821/" title="Learning OpenKruise">https://xuyangwang0825.github.io/posts/1674065821/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
+</ul>
+</div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/posts/2193376716/" itemprop="url">
-            <span itemprop="name">21秋招记录</span>
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
           </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-06-08T14:06:30+08:00"
-              content="2021-06-08">
-          06-08
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/posts/1907751636/" itemprop="url">
-            <span itemprop="name">21FALL英美混申经验</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
+        </div>
     </div>
   </div>
-  
-  
-  
 
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/K8s/" rel="tag"># K8s</a>
+              <a href="/tags/Cloud-Native/" rel="tag"># Cloud Native</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/817167632/" rel="prev" title="Docker and k8s basics">
+      <i class="fa fa-chevron-left"></i> Docker and k8s basics
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/posts/1975851450/" rel="next" title="Setup local kubernetes enviroment">
+      Setup local kubernetes enviroment <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+    
+  </article>
+  
+  
   
 
 
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -289,15 +417,16 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          文章目录
+          Table of Contents
         </li>
         <li class="sidebar-nav-overview">
-          站点概览
+          Overview
         </li>
       </ul>
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#introduction"><span class="nav-number">1.</span> <span class="nav-text"> Introduction</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#features"><span class="nav-number">2.</span> <span class="nav-text"> Features</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#advanced-workloads"><span class="nav-number">2.1.</span> <span class="nav-text"> Advanced Workloads</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#decoupled-application-management"><span class="nav-number">2.2.</span> <span class="nav-text"> Decoupled Application Management</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#high-availability-protection"><span class="nav-number">2.3.</span> <span class="nav-text"> High-availability Protection</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#architecture"><span class="nav-number">3.</span> <span class="nav-text"> Architecture</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#apis"><span class="nav-number">3.1.</span> <span class="nav-text"> Apis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#kruise-manager"><span class="nav-number">3.2.</span> <span class="nav-text"> Kruise-manager</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#reference"><span class="nav-number">4.</span> <span class="nav-text"> Reference</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -378,16 +507,16 @@
   <div class="languages">
     <label class="lang-select-label">
       <i class="fa fa-language"></i>
-      <span>简体中文</span>
+      <span>English</span>
       <i class="fa fa-angle-up" aria-hidden="true"></i>
     </label>
     <select class="lang-select" data-canonical="">
       
-        <option value="zh-CN" data-href="/en/categories/%E7%95%99%E5%AD%A6/" selected="">
+        <option value="zh-CN" data-href="/posts/1674065821/" selected="">
           简体中文
         </option>
       
-        <option value="en" data-href="/en/en/categories/%E7%95%99%E5%AD%A6/" selected="">
+        <option value="en" data-href="/en/posts/1674065821/" selected="">
           English
         </option>
       
